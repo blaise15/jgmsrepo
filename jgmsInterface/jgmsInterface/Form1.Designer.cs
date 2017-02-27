@@ -28,44 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.memberTabPage = new System.Windows.Forms.TabPage();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage = new System.Windows.Forms.TabPage();
             this.classTabPage = new System.Windows.Forms.TabPage();
-            this.transactionsTabPage = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.instructorTabPage = new System.Windows.Forms.TabPage();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
             this.newClassTabPage = new System.Windows.Forms.TabPage();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.scheduleFormTabPage = new System.Windows.Forms.TabPage();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.classReportTabPage = new System.Windows.Forms.TabPage();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.digsReportTabPage = new System.Windows.Forms.TabPage();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.instrucrorReportTabPage = new System.Windows.Forms.TabPage();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.scheduleReportTabPage = new System.Windows.Forms.TabPage();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.transactionsTabPage = new System.Windows.Forms.TabPage();
             this.tabControl4 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.scheduleFormTabPage = new System.Windows.Forms.TabPage();
-            this.classReportTabPage = new System.Windows.Forms.TabPage();
-            this.digsReportTabPage = new System.Windows.Forms.TabPage();
-            this.instrucrorReportTabPage = new System.Windows.Forms.TabPage();
-            this.scheduleReportTabPage = new System.Windows.Forms.TabPage();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.memberTabPage.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.classTabPage.SuspendLayout();
-            this.transactionsTabPage.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.instructorTabPage.SuspendLayout();
             this.newClassTabPage.SuspendLayout();
-            this.tabControl4.SuspendLayout();
             this.scheduleFormTabPage.SuspendLayout();
             this.classReportTabPage.SuspendLayout();
             this.digsReportTabPage.SuspendLayout();
             this.instrucrorReportTabPage.SuspendLayout();
             this.scheduleReportTabPage.SuspendLayout();
+            this.transactionsTabPage.SuspendLayout();
+            this.tabControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -121,16 +124,6 @@
             this.classTabPage.Text = "Class";
             this.classTabPage.UseVisualStyleBackColor = true;
             // 
-            // transactionsTabPage
-            // 
-            this.transactionsTabPage.Controls.Add(this.tabControl4);
-            this.transactionsTabPage.Location = new System.Drawing.Point(4, 22);
-            this.transactionsTabPage.Name = "transactionsTabPage";
-            this.transactionsTabPage.Size = new System.Drawing.Size(671, 431);
-            this.transactionsTabPage.TabIndex = 2;
-            this.transactionsTabPage.Text = "Transactions";
-            this.transactionsTabPage.UseVisualStyleBackColor = true;
-            // 
             // tabControl3
             // 
             this.tabControl3.Controls.Add(this.instructorTabPage);
@@ -157,8 +150,18 @@
             this.instructorTabPage.Text = "Instructor";
             this.instructorTabPage.UseVisualStyleBackColor = true;
             // 
+            // richTextBox7
+            // 
+            this.richTextBox7.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.richTextBox7.Location = new System.Drawing.Point(-1, 0);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.Size = new System.Drawing.Size(672, 94);
+            this.richTextBox7.TabIndex = 2;
+            this.richTextBox7.Text = "Instructor";
+            // 
             // newClassTabPage
             // 
+            this.newClassTabPage.Controls.Add(this.pictureBox1);
             this.newClassTabPage.Controls.Add(this.richTextBox1);
             this.newClassTabPage.Location = new System.Drawing.Point(4, 22);
             this.newClassTabPage.Name = "newClassTabPage";
@@ -167,6 +170,120 @@
             this.newClassTabPage.TabIndex = 1;
             this.newClassTabPage.Text = "New Class";
             this.newClassTabPage.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.richTextBox1.Location = new System.Drawing.Point(-4, 1);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(672, 94);
+            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Text = "New Class";
+            // 
+            // scheduleFormTabPage
+            // 
+            this.scheduleFormTabPage.Controls.Add(this.richTextBox2);
+            this.scheduleFormTabPage.Location = new System.Drawing.Point(4, 22);
+            this.scheduleFormTabPage.Name = "scheduleFormTabPage";
+            this.scheduleFormTabPage.Size = new System.Drawing.Size(667, 409);
+            this.scheduleFormTabPage.TabIndex = 2;
+            this.scheduleFormTabPage.Text = "Schedule Form";
+            this.scheduleFormTabPage.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.richTextBox2.Location = new System.Drawing.Point(-1, 0);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(672, 94);
+            this.richTextBox2.TabIndex = 2;
+            this.richTextBox2.Text = "Schedule Form";
+            // 
+            // classReportTabPage
+            // 
+            this.classReportTabPage.Controls.Add(this.richTextBox3);
+            this.classReportTabPage.Location = new System.Drawing.Point(4, 22);
+            this.classReportTabPage.Name = "classReportTabPage";
+            this.classReportTabPage.Size = new System.Drawing.Size(667, 409);
+            this.classReportTabPage.TabIndex = 3;
+            this.classReportTabPage.Text = "Class Report";
+            this.classReportTabPage.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.richTextBox3.Location = new System.Drawing.Point(-4, 0);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(672, 94);
+            this.richTextBox3.TabIndex = 2;
+            this.richTextBox3.Text = "Class Report";
+            // 
+            // digsReportTabPage
+            // 
+            this.digsReportTabPage.Controls.Add(this.richTextBox4);
+            this.digsReportTabPage.Location = new System.Drawing.Point(4, 22);
+            this.digsReportTabPage.Name = "digsReportTabPage";
+            this.digsReportTabPage.Size = new System.Drawing.Size(667, 409);
+            this.digsReportTabPage.TabIndex = 4;
+            this.digsReportTabPage.Text = "Digs Report";
+            this.digsReportTabPage.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.richTextBox4.Location = new System.Drawing.Point(-1, 0);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.Size = new System.Drawing.Size(672, 94);
+            this.richTextBox4.TabIndex = 2;
+            this.richTextBox4.Text = "Digs Report";
+            // 
+            // instrucrorReportTabPage
+            // 
+            this.instrucrorReportTabPage.Controls.Add(this.richTextBox5);
+            this.instrucrorReportTabPage.Location = new System.Drawing.Point(4, 22);
+            this.instrucrorReportTabPage.Name = "instrucrorReportTabPage";
+            this.instrucrorReportTabPage.Size = new System.Drawing.Size(667, 409);
+            this.instrucrorReportTabPage.TabIndex = 5;
+            this.instrucrorReportTabPage.Text = "Instructor Report";
+            this.instrucrorReportTabPage.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.richTextBox5.Location = new System.Drawing.Point(-4, 0);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.Size = new System.Drawing.Size(672, 94);
+            this.richTextBox5.TabIndex = 2;
+            this.richTextBox5.Text = "Instructor Report";
+            // 
+            // scheduleReportTabPage
+            // 
+            this.scheduleReportTabPage.Controls.Add(this.richTextBox6);
+            this.scheduleReportTabPage.Location = new System.Drawing.Point(4, 22);
+            this.scheduleReportTabPage.Name = "scheduleReportTabPage";
+            this.scheduleReportTabPage.Size = new System.Drawing.Size(667, 409);
+            this.scheduleReportTabPage.TabIndex = 6;
+            this.scheduleReportTabPage.Text = "Schedule Report";
+            this.scheduleReportTabPage.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox6
+            // 
+            this.richTextBox6.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.richTextBox6.Location = new System.Drawing.Point(-1, 0);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.Size = new System.Drawing.Size(672, 94);
+            this.richTextBox6.TabIndex = 2;
+            this.richTextBox6.Text = "Schedule Report";
+            // 
+            // transactionsTabPage
+            // 
+            this.transactionsTabPage.Controls.Add(this.tabControl4);
+            this.transactionsTabPage.Location = new System.Drawing.Point(4, 22);
+            this.transactionsTabPage.Name = "transactionsTabPage";
+            this.transactionsTabPage.Size = new System.Drawing.Size(671, 431);
+            this.transactionsTabPage.TabIndex = 2;
+            this.transactionsTabPage.Text = "Transactions";
+            this.transactionsTabPage.UseVisualStyleBackColor = true;
             // 
             // tabControl4
             // 
@@ -193,123 +310,19 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(192, 74);
+            this.tabPage4.Size = new System.Drawing.Size(671, 409);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // scheduleFormTabPage
+            // pictureBox1
             // 
-            this.scheduleFormTabPage.Controls.Add(this.richTextBox2);
-            this.scheduleFormTabPage.Location = new System.Drawing.Point(4, 22);
-            this.scheduleFormTabPage.Name = "scheduleFormTabPage";
-            this.scheduleFormTabPage.Size = new System.Drawing.Size(667, 409);
-            this.scheduleFormTabPage.TabIndex = 2;
-            this.scheduleFormTabPage.Text = "Schedule Form";
-            this.scheduleFormTabPage.UseVisualStyleBackColor = true;
-            // 
-            // classReportTabPage
-            // 
-            this.classReportTabPage.Controls.Add(this.richTextBox3);
-            this.classReportTabPage.Location = new System.Drawing.Point(4, 22);
-            this.classReportTabPage.Name = "classReportTabPage";
-            this.classReportTabPage.Size = new System.Drawing.Size(667, 409);
-            this.classReportTabPage.TabIndex = 3;
-            this.classReportTabPage.Text = "Class Report";
-            this.classReportTabPage.UseVisualStyleBackColor = true;
-            // 
-            // digsReportTabPage
-            // 
-            this.digsReportTabPage.Controls.Add(this.richTextBox4);
-            this.digsReportTabPage.Location = new System.Drawing.Point(4, 22);
-            this.digsReportTabPage.Name = "digsReportTabPage";
-            this.digsReportTabPage.Size = new System.Drawing.Size(667, 409);
-            this.digsReportTabPage.TabIndex = 4;
-            this.digsReportTabPage.Text = "Digs Report";
-            this.digsReportTabPage.UseVisualStyleBackColor = true;
-            // 
-            // instrucrorReportTabPage
-            // 
-            this.instrucrorReportTabPage.Controls.Add(this.richTextBox5);
-            this.instrucrorReportTabPage.Location = new System.Drawing.Point(4, 22);
-            this.instrucrorReportTabPage.Name = "instrucrorReportTabPage";
-            this.instrucrorReportTabPage.Size = new System.Drawing.Size(667, 409);
-            this.instrucrorReportTabPage.TabIndex = 5;
-            this.instrucrorReportTabPage.Text = "Instructor Report";
-            this.instrucrorReportTabPage.UseVisualStyleBackColor = true;
-            // 
-            // scheduleReportTabPage
-            // 
-            this.scheduleReportTabPage.Controls.Add(this.richTextBox6);
-            this.scheduleReportTabPage.Location = new System.Drawing.Point(4, 22);
-            this.scheduleReportTabPage.Name = "scheduleReportTabPage";
-            this.scheduleReportTabPage.Size = new System.Drawing.Size(667, 409);
-            this.scheduleReportTabPage.TabIndex = 6;
-            this.scheduleReportTabPage.Text = "Schedule Report";
-            this.scheduleReportTabPage.UseVisualStyleBackColor = true;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.richTextBox1.Location = new System.Drawing.Point(-4, 1);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(672, 94);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "New Class";
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.richTextBox2.Location = new System.Drawing.Point(-1, 0);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(672, 94);
-            this.richTextBox2.TabIndex = 2;
-            this.richTextBox2.Text = "Schedule Form";
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.richTextBox3.Location = new System.Drawing.Point(-4, 0);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(672, 94);
-            this.richTextBox3.TabIndex = 2;
-            this.richTextBox3.Text = "Class Report";
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.richTextBox4.Location = new System.Drawing.Point(-1, 0);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(672, 94);
-            this.richTextBox4.TabIndex = 2;
-            this.richTextBox4.Text = "Digs Report";
-            // 
-            // richTextBox5
-            // 
-            this.richTextBox5.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.richTextBox5.Location = new System.Drawing.Point(-4, 0);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(672, 94);
-            this.richTextBox5.TabIndex = 2;
-            this.richTextBox5.Text = "Instructor Report";
-            // 
-            // richTextBox6
-            // 
-            this.richTextBox6.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.richTextBox6.Location = new System.Drawing.Point(-1, 0);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.Size = new System.Drawing.Size(672, 94);
-            this.richTextBox6.TabIndex = 2;
-            this.richTextBox6.Text = "Schedule Report";
-            // 
-            // richTextBox7
-            // 
-            this.richTextBox7.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.richTextBox7.Location = new System.Drawing.Point(-1, 0);
-            this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.Size = new System.Drawing.Size(672, 94);
-            this.richTextBox7.TabIndex = 2;
-            this.richTextBox7.Text = "Instructor";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(473, 27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(159, 158);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -323,16 +336,17 @@
             this.memberTabPage.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.classTabPage.ResumeLayout(false);
-            this.transactionsTabPage.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
             this.instructorTabPage.ResumeLayout(false);
             this.newClassTabPage.ResumeLayout(false);
-            this.tabControl4.ResumeLayout(false);
             this.scheduleFormTabPage.ResumeLayout(false);
             this.classReportTabPage.ResumeLayout(false);
             this.digsReportTabPage.ResumeLayout(false);
             this.instrucrorReportTabPage.ResumeLayout(false);
             this.scheduleReportTabPage.ResumeLayout(false);
+            this.transactionsTabPage.ResumeLayout(false);
+            this.tabControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -363,6 +377,7 @@
         private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.RichTextBox richTextBox5;
         private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
