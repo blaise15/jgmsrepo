@@ -26,13 +26,13 @@ namespace jgmsInterface
             try
             {
                 connection.Open();
-                string classOption = "select * from class;";
-                MySqlDataAdapter Ada = new MySqlDataAdapter(classOption, connection);
+                string personOption = "select lastName, firstName, phone, email from person;";
+                MySqlDataAdapter Ada = new MySqlDataAdapter(personOption, connection);
                 DataTable dt = new DataTable();
-                DataSet classInfo = new System.Data.DataSet();
-                Ada.Fill(classInfo, "class");
-               
-                dataGrid_digsReport.DataSource = classInfo.Tables[0];
+                DataSet personInfo = new System.Data.DataSet();
+                Ada.Fill(personInfo, "person");
+
+                dataGrid_digsReport.DataSource = personInfo.Tables[0];
             }
             catch (Exception ex)
             {
@@ -58,6 +58,29 @@ namespace jgmsInterface
                 MySqlDataReader rdr = newClass.ExecuteReader();
                 rdr.Close();
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
+        private void button_generateClassReport_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                connection.Open();
+                string classOption = "select * from class;";
+                MySqlDataAdapter Ada = new MySqlDataAdapter(classOption, connection);
+                DataTable dt = new DataTable();
+                DataSet classInfo = new System.Data.DataSet();
+                Ada.Fill(classInfo, "class");
+
+                dataGrid_classReport.DataSource = classInfo.Tables[0];
             }
             catch (Exception ex)
             {
