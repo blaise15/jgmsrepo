@@ -163,6 +163,14 @@
             this.transactionsTabPage = new System.Windows.Forms.TabPage();
             this.tabTransactions = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.txtBoxInstructClassSignUp = new System.Windows.Forms.TextBox();
+            this.lblScheduledClassNewClass = new System.Windows.Forms.Label();
+            this.picBoxClassesNewClass = new System.Windows.Forms.PictureBox();
+            this.lblPersonLookUpNewClass = new System.Windows.Forms.Label();
+            this.picBoxPersLookUpNewClass = new System.Windows.Forms.PictureBox();
+            this.picBoxJgmsLogoClassSign = new System.Windows.Forms.PictureBox();
+            this.lblNewClassTrans = new System.Windows.Forms.Label();
+            this.picBoxNewClassTrans = new System.Windows.Forms.PictureBox();
             this.dataGridViewClassTransaction = new System.Windows.Forms.DataGridView();
             this.personID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -183,6 +191,12 @@
             this.txtbxNewClassFName = new System.Windows.Forms.TextBox();
             this.txtbxNewClassPersonID = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.txtBoxInstructNewMem = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.picBoxLogoMemTrans = new System.Windows.Forms.PictureBox();
+            this.lblMemTrans = new System.Windows.Forms.Label();
+            this.picBoxMemTrans = new System.Windows.Forms.PictureBox();
             this.lblOtherPerson4 = new System.Windows.Forms.Label();
             this.lblOtherPerson3 = new System.Windows.Forms.Label();
             this.lblOtherPerson2 = new System.Windows.Forms.Label();
@@ -218,9 +232,6 @@
             this.txtBxNewMbrshpCheckNum = new System.Windows.Forms.TextBox();
             this.txtBxNewMbrshpMbrshpType = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.txtBoxTotalClassFeeStudRecpt = new System.Windows.Forms.TextBox();
             this.txtBoxTotfeeDeductStudRecpt = new System.Windows.Forms.TextBox();
             this.txtBoxTotalFeeTotalFeeStuRecpt = new System.Windows.Forms.TextBox();
@@ -256,13 +267,14 @@
             this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.picJgmsLogoStudRecpt = new System.Windows.Forms.PictureBox();
+            this.picBoxJgmsLogoStudRecpt = new System.Windows.Forms.PictureBox();
             this.txtBoxDateStudRecpt = new System.Windows.Forms.TextBox();
             this.lblClassTransDate = new System.Windows.Forms.Label();
             this.lblTransID = new System.Windows.Forms.Label();
             this.lblClassTrans = new System.Windows.Forms.Label();
             this.txtBoxTransIDStudRecpt = new System.Windows.Forms.TextBox();
             this.picBoxClassTrans = new System.Windows.Forms.PictureBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.picBoxJgmsLogoMemPay = new System.Windows.Forms.PictureBox();
             this.lblPayTypeTotalMemPay = new System.Windows.Forms.Label();
             this.txtBoxPayTypeTotalTotal = new System.Windows.Forms.TextBox();
@@ -276,7 +288,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.lblPayTypeCashMemPay = new System.Windows.Forms.Label();
             this.tabControlMemPay = new System.Windows.Forms.TabControl();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPageCashMemPay = new System.Windows.Forms.TabPage();
             this.txtBoxCashTotalMemPay = new System.Windows.Forms.TextBox();
             this.lblTotalCashMemPay = new System.Windows.Forms.Label();
             this.lblCashMemPay = new System.Windows.Forms.Label();
@@ -287,7 +299,7 @@
             this.Column27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tabPageSquareMemPay = new System.Windows.Forms.TabPage();
             this.txtBoxSquareTotalMemPay = new System.Windows.Forms.TextBox();
             this.lblSquareTotalMemPay = new System.Windows.Forms.Label();
             this.lblSquareMemPay = new System.Windows.Forms.Label();
@@ -298,7 +310,7 @@
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.tabPageCheckMemPay = new System.Windows.Forms.TabPage();
             this.txtBoxCheckTotalMemPay = new System.Windows.Forms.TextBox();
             this.lblCheckTotalMemPay = new System.Windows.Forms.Label();
             this.lblCheckMemPay = new System.Windows.Forms.Label();
@@ -309,7 +321,7 @@
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.tabPageVoucherMemPay = new System.Windows.Forms.TabPage();
             this.txtBoxVoucherTotalMemPay = new System.Windows.Forms.TextBox();
             this.lblTotalMemPay = new System.Windows.Forms.Label();
             this.lblVoucherMemPay = new System.Windows.Forms.Label();
@@ -329,12 +341,9 @@
             this.txtBoxTransIDMemPay = new System.Windows.Forms.TextBox();
             this.picBoxMemPay = new System.Windows.Forms.PictureBox();
             this.picBoxPayTypeTotalMemPay = new System.Windows.Forms.PictureBox();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.txtBoxTodaysDateClassPay = new System.Windows.Forms.TextBox();
             this.lblRecptClassPay = new System.Windows.Forms.Label();
-            this.txtBoxTotalClassPay = new System.Windows.Forms.TextBox();
-            this.lblTotalClassPay = new System.Windows.Forms.Label();
-            this.lblCashClassPay = new System.Windows.Forms.Label();
-            this.picBoxCashClassPay = new System.Windows.Forms.PictureBox();
             this.lblPayTypeTotalClassPay = new System.Windows.Forms.Label();
             this.txtBoxPayTypeTotalTotalClassPay = new System.Windows.Forms.TextBox();
             this.lblPayTypeTotalTotalClassPay = new System.Windows.Forms.Label();
@@ -348,6 +357,10 @@
             this.lblPayTypeCashClassPay = new System.Windows.Forms.Label();
             this.tabControlClassPay = new System.Windows.Forms.TabControl();
             this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.txtBoxTotalClassPay = new System.Windows.Forms.TextBox();
+            this.lblTotalClassPay = new System.Windows.Forms.Label();
+            this.lblCashClassPay = new System.Windows.Forms.Label();
+            this.picBoxCashClassPay = new System.Windows.Forms.PictureBox();
             this.dataGridViewCashClassPay = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -387,23 +400,25 @@
             this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtBoxPageClassPay = new System.Windows.Forms.TextBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.picBoxJgmsLogoClassPay = new System.Windows.Forms.PictureBox();
             this.txtBoxDateClassPay = new System.Windows.Forms.TextBox();
             this.lblDateClassPay = new System.Windows.Forms.Label();
             this.lblTransIDClassPay = new System.Windows.Forms.Label();
             this.txtBoxTransIDClassPay = new System.Windows.Forms.TextBox();
             this.lblClassPay = new System.Windows.Forms.Label();
             this.picBoxClassPay = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabClassRosters = new System.Windows.Forms.TabControl();
+            this.tabPage15 = new System.Windows.Forms.TabPage();
             this.lblRegistStudClassRosters = new System.Windows.Forms.Label();
+            this.picBoxRegistStudClassRoster = new System.Windows.Forms.PictureBox();
             this.dataGridViewRegistStudClassRosters = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabClassRosters = new System.Windows.Forms.TabControl();
-            this.tabPage15 = new System.Windows.Forms.TabPage();
-            this.picBoxRegistStudClassRoster = new System.Windows.Forms.PictureBox();
             this.tabPage16 = new System.Windows.Forms.TabPage();
             this.lblAltStudClassRoster = new System.Windows.Forms.Label();
             this.picBoxAltStudClassRoster = new System.Windows.Forms.PictureBox();
@@ -427,21 +442,6 @@
             this.txtBoxClassNameClassRosters = new System.Windows.Forms.TextBox();
             this.lblClassRosters = new System.Windows.Forms.Label();
             this.picBoxClassRosters = new System.Windows.Forms.PictureBox();
-            this.txtBoxInstructClassSignUp = new System.Windows.Forms.TextBox();
-            this.lblScheduledClassNewClass = new System.Windows.Forms.Label();
-            this.picBoxClassesNewClass = new System.Windows.Forms.PictureBox();
-            this.lblPersonLookUpNewClass = new System.Windows.Forms.Label();
-            this.picBoxPersLookUpNewClass = new System.Windows.Forms.PictureBox();
-            this.picJgmsLogo5 = new System.Windows.Forms.PictureBox();
-            this.lblNewClassTrans = new System.Windows.Forms.Label();
-            this.picBoxNewClassTrans = new System.Windows.Forms.PictureBox();
-            this.txtBoxInstructNewMem = new System.Windows.Forms.TextBox();
-            this.label59 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.picBoxLogo = new System.Windows.Forms.PictureBox();
-            this.lblMemTrans = new System.Windows.Forms.Label();
-            this.picBoxMemTrans = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.memberTabPage.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -465,39 +465,45 @@
             this.transactionsTabPage.SuspendLayout();
             this.tabTransactions.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxClassesNewClass)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxPersLookUpNewClass)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoClassSign)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxNewClassTrans)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClassTransaction)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMemTrans)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxMemTrans)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMembership)).BeginInit();
             this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridDedctblStudRecpt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxTotalFeeStudRecpt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxDeductStudRecpt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxClassAttendClassTrans)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridClassAttendStudRecpt)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picJgmsLogoStudRecpt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoStudRecpt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxClassTrans)).BeginInit();
+            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoMemPay)).BeginInit();
             this.tabControlMemPay.SuspendLayout();
-            this.tabPage7.SuspendLayout();
+            this.tabPageCashMemPay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxMemPayCash)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCashMemPay)).BeginInit();
-            this.tabPage8.SuspendLayout();
+            this.tabPageSquareMemPay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxSquareMemPay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSquareMemPay)).BeginInit();
-            this.tabPage9.SuspendLayout();
+            this.tabPageCheckMemPay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxCheckMemPay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCheckMemPay)).BeginInit();
-            this.tabPage10.SuspendLayout();
+            this.tabPageVoucherMemPay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxVoucherMemPay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVoucherMemPay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxMemPay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxPayTypeTotalMemPay)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxCashClassPay)).BeginInit();
+            this.tabPage5.SuspendLayout();
             this.tabControlClassPay.SuspendLayout();
             this.tabPage11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCashClassPay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCashClassPay)).BeginInit();
             this.tabPage12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxSquareClassPay)).BeginInit();
@@ -508,25 +514,19 @@
             this.tabPage14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxVoucherClassPay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVoucherClassPay)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoClassPay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxClassPay)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRegistStudClassRosters)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.tabPage6.SuspendLayout();
             this.tabClassRosters.SuspendLayout();
             this.tabPage15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxRegistStudClassRoster)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRegistStudClassRosters)).BeginInit();
             this.tabPage16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxAltStudClassRoster)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAltStudClassRoster)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoClassRosters)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxClassRosters)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxClassesNewClass)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxPersLookUpNewClass)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picJgmsLogo5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxNewClassTrans)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxMemTrans)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -545,7 +545,7 @@
             this.memberTabPage.Controls.Add(this.tabControl2);
             this.memberTabPage.Location = new System.Drawing.Point(4, 22);
             this.memberTabPage.Name = "memberTabPage";
-            this.memberTabPage.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.memberTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.memberTabPage.Size = new System.Drawing.Size(780, 505);
             this.memberTabPage.TabIndex = 0;
             this.memberTabPage.Text = "Members";
@@ -565,7 +565,7 @@
             this.tabPage.ForeColor = System.Drawing.Color.Coral;
             this.tabPage.Location = new System.Drawing.Point(4, 22);
             this.tabPage.Name = "tabPage";
-            this.tabPage.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage.Size = new System.Drawing.Size(664, 409);
             this.tabPage.TabIndex = 0;
             this.tabPage.Text = "tab";
@@ -576,7 +576,7 @@
             this.classTabPage.Controls.Add(this.tabControl3);
             this.classTabPage.Location = new System.Drawing.Point(4, 22);
             this.classTabPage.Name = "classTabPage";
-            this.classTabPage.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.classTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.classTabPage.Size = new System.Drawing.Size(780, 505);
             this.classTabPage.TabIndex = 1;
             this.classTabPage.Text = "Class";
@@ -602,7 +602,7 @@
             this.instructorTabPage.Controls.Add(this.richTextBox7);
             this.instructorTabPage.Location = new System.Drawing.Point(4, 22);
             this.instructorTabPage.Name = "instructorTabPage";
-            this.instructorTabPage.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.instructorTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.instructorTabPage.Size = new System.Drawing.Size(667, 409);
             this.instructorTabPage.TabIndex = 0;
             this.instructorTabPage.Text = "Instructor";
@@ -632,7 +632,7 @@
             this.newClassTabPage.Controls.Add(this.richTextBox1);
             this.newClassTabPage.Location = new System.Drawing.Point(4, 22);
             this.newClassTabPage.Name = "newClassTabPage";
-            this.newClassTabPage.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.newClassTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.newClassTabPage.Size = new System.Drawing.Size(667, 409);
             this.newClassTabPage.TabIndex = 1;
             this.newClassTabPage.Text = "New Class";
@@ -1775,7 +1775,7 @@
             this.tabPage1.Controls.Add(this.picBoxClassesNewClass);
             this.tabPage1.Controls.Add(this.lblPersonLookUpNewClass);
             this.tabPage1.Controls.Add(this.picBoxPersLookUpNewClass);
-            this.tabPage1.Controls.Add(this.picJgmsLogo5);
+            this.tabPage1.Controls.Add(this.picBoxJgmsLogoClassSign);
             this.tabPage1.Controls.Add(this.lblNewClassTrans);
             this.tabPage1.Controls.Add(this.picBoxNewClassTrans);
             this.tabPage1.Controls.Add(this.dataGridViewClassTransaction);
@@ -1797,10 +1797,105 @@
             this.tabPage1.Controls.Add(this.txtbxNewClassPersonID);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(770, 475);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Class Sign-Up";
+            // 
+            // txtBoxInstructClassSignUp
+            // 
+            this.txtBoxInstructClassSignUp.BackColor = System.Drawing.Color.LightBlue;
+            this.txtBoxInstructClassSignUp.Location = new System.Drawing.Point(30, 85);
+            this.txtBoxInstructClassSignUp.Multiline = true;
+            this.txtBoxInstructClassSignUp.Name = "txtBoxInstructClassSignUp";
+            this.txtBoxInstructClassSignUp.Size = new System.Drawing.Size(321, 112);
+            this.txtBoxInstructClassSignUp.TabIndex = 60;
+            this.txtBoxInstructClassSignUp.Text = resources.GetString("txtBoxInstructClassSignUp.Text");
+            this.txtBoxInstructClassSignUp.UseWaitCursor = true;
+            // 
+            // lblScheduledClassNewClass
+            // 
+            this.lblScheduledClassNewClass.AutoSize = true;
+            this.lblScheduledClassNewClass.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblScheduledClassNewClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScheduledClassNewClass.Location = new System.Drawing.Point(425, 291);
+            this.lblScheduledClassNewClass.Name = "lblScheduledClassNewClass";
+            this.lblScheduledClassNewClass.Size = new System.Drawing.Size(156, 15);
+            this.lblScheduledClassNewClass.TabIndex = 58;
+            this.lblScheduledClassNewClass.Text = "SCHEDULED CLASSES";
+            this.lblScheduledClassNewClass.UseWaitCursor = true;
+            // 
+            // picBoxClassesNewClass
+            // 
+            this.picBoxClassesNewClass.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxClassesNewClass.Location = new System.Drawing.Point(415, 285);
+            this.picBoxClassesNewClass.Margin = new System.Windows.Forms.Padding(0);
+            this.picBoxClassesNewClass.Name = "picBoxClassesNewClass";
+            this.picBoxClassesNewClass.Size = new System.Drawing.Size(300, 29);
+            this.picBoxClassesNewClass.TabIndex = 59;
+            this.picBoxClassesNewClass.TabStop = false;
+            this.picBoxClassesNewClass.UseWaitCursor = true;
+            // 
+            // lblPersonLookUpNewClass
+            // 
+            this.lblPersonLookUpNewClass.AutoSize = true;
+            this.lblPersonLookUpNewClass.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblPersonLookUpNewClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPersonLookUpNewClass.Location = new System.Drawing.Point(424, 92);
+            this.lblPersonLookUpNewClass.Name = "lblPersonLookUpNewClass";
+            this.lblPersonLookUpNewClass.Size = new System.Drawing.Size(146, 15);
+            this.lblPersonLookUpNewClass.TabIndex = 56;
+            this.lblPersonLookUpNewClass.Text = "PERSON ID LOOK UP";
+            this.lblPersonLookUpNewClass.UseWaitCursor = true;
+            // 
+            // picBoxPersLookUpNewClass
+            // 
+            this.picBoxPersLookUpNewClass.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxPersLookUpNewClass.Location = new System.Drawing.Point(414, 85);
+            this.picBoxPersLookUpNewClass.Margin = new System.Windows.Forms.Padding(0);
+            this.picBoxPersLookUpNewClass.Name = "picBoxPersLookUpNewClass";
+            this.picBoxPersLookUpNewClass.Size = new System.Drawing.Size(300, 29);
+            this.picBoxPersLookUpNewClass.TabIndex = 57;
+            this.picBoxPersLookUpNewClass.TabStop = false;
+            this.picBoxPersLookUpNewClass.UseWaitCursor = true;
+            // 
+            // picBoxJgmsLogoClassSign
+            // 
+            this.picBoxJgmsLogoClassSign.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxJgmsLogoClassSign.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.picBoxJgmsLogoClassSign.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
+            this.picBoxJgmsLogoClassSign.Location = new System.Drawing.Point(690, 3);
+            this.picBoxJgmsLogoClassSign.MaximumSize = new System.Drawing.Size(70, 70);
+            this.picBoxJgmsLogoClassSign.MinimumSize = new System.Drawing.Size(70, 70);
+            this.picBoxJgmsLogoClassSign.Name = "picBoxJgmsLogoClassSign";
+            this.picBoxJgmsLogoClassSign.Size = new System.Drawing.Size(70, 70);
+            this.picBoxJgmsLogoClassSign.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxJgmsLogoClassSign.TabIndex = 55;
+            this.picBoxJgmsLogoClassSign.TabStop = false;
+            this.picBoxJgmsLogoClassSign.UseWaitCursor = true;
+            // 
+            // lblNewClassTrans
+            // 
+            this.lblNewClassTrans.AutoSize = true;
+            this.lblNewClassTrans.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblNewClassTrans.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNewClassTrans.Location = new System.Drawing.Point(28, 19);
+            this.lblNewClassTrans.Name = "lblNewClassTrans";
+            this.lblNewClassTrans.Size = new System.Drawing.Size(161, 18);
+            this.lblNewClassTrans.TabIndex = 53;
+            this.lblNewClassTrans.Text = "Class Sign-Up Form";
+            this.lblNewClassTrans.UseWaitCursor = true;
+            // 
+            // picBoxNewClassTrans
+            // 
+            this.picBoxNewClassTrans.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxNewClassTrans.Location = new System.Drawing.Point(0, 0);
+            this.picBoxNewClassTrans.Margin = new System.Windows.Forms.Padding(0);
+            this.picBoxNewClassTrans.Name = "picBoxNewClassTrans";
+            this.picBoxNewClassTrans.Size = new System.Drawing.Size(770, 75);
+            this.picBoxNewClassTrans.TabIndex = 54;
+            this.picBoxNewClassTrans.TabStop = false;
+            this.picBoxNewClassTrans.UseWaitCursor = true;
             // 
             // dataGridViewClassTransaction
             // 
@@ -1812,8 +1907,8 @@
             this.dataGridViewClassTransaction.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.personID,
             this.Name});
-            this.dataGridViewClassTransaction.Location = new System.Drawing.Point(405, 122);
-            this.dataGridViewClassTransaction.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewClassTransaction.Location = new System.Drawing.Point(414, 122);
+            this.dataGridViewClassTransaction.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewClassTransaction.Name = "dataGridViewClassTransaction";
             this.dataGridViewClassTransaction.RowHeadersVisible = false;
             this.dataGridViewClassTransaction.RowTemplate.Height = 24;
@@ -1837,8 +1932,8 @@
             // 
             // txtBxNewClassVoucher
             // 
-            this.txtBxNewClassVoucher.Location = new System.Drawing.Point(187, 340);
-            this.txtBxNewClassVoucher.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBxNewClassVoucher.Location = new System.Drawing.Point(187, 344);
+            this.txtBxNewClassVoucher.Margin = new System.Windows.Forms.Padding(2);
             this.txtBxNewClassVoucher.Name = "txtBxNewClassVoucher";
             this.txtBxNewClassVoucher.Size = new System.Drawing.Size(100, 20);
             this.txtBxNewClassVoucher.TabIndex = 21;
@@ -1848,7 +1943,7 @@
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(69, 345);
+            this.label41.Location = new System.Drawing.Point(69, 349);
             this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(50, 13);
@@ -1858,8 +1953,8 @@
             // txtbxNewClassCost
             // 
             this.txtbxNewClassCost.Enabled = false;
-            this.txtbxNewClassCost.Location = new System.Drawing.Point(187, 363);
-            this.txtbxNewClassCost.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtbxNewClassCost.Location = new System.Drawing.Point(187, 367);
+            this.txtbxNewClassCost.Margin = new System.Windows.Forms.Padding(2);
             this.txtbxNewClassCost.Name = "txtbxNewClassCost";
             this.txtbxNewClassCost.Size = new System.Drawing.Size(100, 20);
             this.txtbxNewClassCost.TabIndex = 19;
@@ -1869,7 +1964,7 @@
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(69, 366);
+            this.label42.Location = new System.Drawing.Point(69, 370);
             this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(31, 13);
@@ -1879,15 +1974,15 @@
             // chkLstBxClassNames
             // 
             this.chkLstBxClassNames.FormattingEnabled = true;
-            this.chkLstBxClassNames.Location = new System.Drawing.Point(405, 321);
-            this.chkLstBxClassNames.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chkLstBxClassNames.Location = new System.Drawing.Point(414, 322);
+            this.chkLstBxClassNames.Margin = new System.Windows.Forms.Padding(2);
             this.chkLstBxClassNames.Name = "chkLstBxClassNames";
             this.chkLstBxClassNames.Size = new System.Drawing.Size(302, 124);
             this.chkLstBxClassNames.TabIndex = 4;
             // 
             // NewClassSvTrnsctn
             // 
-            this.NewClassSvTrnsctn.Location = new System.Drawing.Point(72, 405);
+            this.NewClassSvTrnsctn.Location = new System.Drawing.Point(72, 413);
             this.NewClassSvTrnsctn.Name = "NewClassSvTrnsctn";
             this.NewClassSvTrnsctn.Size = new System.Drawing.Size(214, 23);
             this.NewClassSvTrnsctn.TabIndex = 6;
@@ -1897,7 +1992,7 @@
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(69, 320);
+            this.label43.Location = new System.Drawing.Point(69, 324);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(81, 13);
             this.label43.TabIndex = 16;
@@ -1910,7 +2005,7 @@
             "Cash",
             "Square",
             "Check"});
-            this.cmbBxNewClassPayment.Location = new System.Drawing.Point(187, 292);
+            this.cmbBxNewClassPayment.Location = new System.Drawing.Point(187, 296);
             this.cmbBxNewClassPayment.Name = "cmbBxNewClassPayment";
             this.cmbBxNewClassPayment.Size = new System.Drawing.Size(100, 21);
             this.cmbBxNewClassPayment.TabIndex = 2;
@@ -1918,7 +2013,7 @@
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(69, 294);
+            this.label44.Location = new System.Drawing.Point(69, 298);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(78, 13);
             this.label44.TabIndex = 12;
@@ -1927,7 +2022,7 @@
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(69, 268);
+            this.label45.Location = new System.Drawing.Point(69, 272);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(61, 13);
             this.label45.TabIndex = 10;
@@ -1936,7 +2031,7 @@
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(69, 242);
+            this.label46.Location = new System.Drawing.Point(69, 246);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(60, 13);
             this.label46.TabIndex = 9;
@@ -1945,7 +2040,7 @@
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(69, 216);
+            this.label47.Location = new System.Drawing.Point(69, 220);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(57, 13);
             this.label47.TabIndex = 8;
@@ -1954,14 +2049,14 @@
             // txtbxNewClassCheckNum
             // 
             this.txtbxNewClassCheckNum.Enabled = false;
-            this.txtbxNewClassCheckNum.Location = new System.Drawing.Point(187, 318);
+            this.txtbxNewClassCheckNum.Location = new System.Drawing.Point(187, 322);
             this.txtbxNewClassCheckNum.Name = "txtbxNewClassCheckNum";
             this.txtbxNewClassCheckNum.Size = new System.Drawing.Size(100, 20);
             this.txtbxNewClassCheckNum.TabIndex = 3;
             // 
             // txtbxNewClassLName
             // 
-            this.txtbxNewClassLName.Location = new System.Drawing.Point(187, 266);
+            this.txtbxNewClassLName.Location = new System.Drawing.Point(187, 270);
             this.txtbxNewClassLName.Name = "txtbxNewClassLName";
             this.txtbxNewClassLName.ReadOnly = true;
             this.txtbxNewClassLName.Size = new System.Drawing.Size(100, 20);
@@ -1969,7 +2064,7 @@
             // 
             // txtbxNewClassFName
             // 
-            this.txtbxNewClassFName.Location = new System.Drawing.Point(187, 239);
+            this.txtbxNewClassFName.Location = new System.Drawing.Point(187, 243);
             this.txtbxNewClassFName.Name = "txtbxNewClassFName";
             this.txtbxNewClassFName.ReadOnly = true;
             this.txtbxNewClassFName.Size = new System.Drawing.Size(100, 20);
@@ -1977,7 +2072,7 @@
             // 
             // txtbxNewClassPersonID
             // 
-            this.txtbxNewClassPersonID.Location = new System.Drawing.Point(187, 213);
+            this.txtbxNewClassPersonID.Location = new System.Drawing.Point(187, 217);
             this.txtbxNewClassPersonID.Name = "txtbxNewClassPersonID";
             this.txtbxNewClassPersonID.Size = new System.Drawing.Size(100, 20);
             this.txtbxNewClassPersonID.TabIndex = 1;
@@ -1988,7 +2083,7 @@
             this.tabPage2.Controls.Add(this.txtBoxInstructNewMem);
             this.tabPage2.Controls.Add(this.label59);
             this.tabPage2.Controls.Add(this.pictureBox7);
-            this.tabPage2.Controls.Add(this.picBoxLogo);
+            this.tabPage2.Controls.Add(this.picBoxLogoMemTrans);
             this.tabPage2.Controls.Add(this.lblMemTrans);
             this.tabPage2.Controls.Add(this.picBoxMemTrans);
             this.tabPage2.Controls.Add(this.lblOtherPerson4);
@@ -2025,16 +2120,87 @@
             this.tabPage2.Controls.Add(this.txtBxNewMbrshpMbrshpType);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(770, 475);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Membership Transaction";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // txtBoxInstructNewMem
+            // 
+            this.txtBoxInstructNewMem.BackColor = System.Drawing.Color.LightBlue;
+            this.txtBoxInstructNewMem.Location = new System.Drawing.Point(30, 85);
+            this.txtBoxInstructNewMem.Multiline = true;
+            this.txtBoxInstructNewMem.Name = "txtBoxInstructNewMem";
+            this.txtBoxInstructNewMem.Size = new System.Drawing.Size(321, 83);
+            this.txtBoxInstructNewMem.TabIndex = 59;
+            this.txtBoxInstructNewMem.Text = resources.GetString("txtBoxInstructNewMem.Text");
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Location = new System.Drawing.Point(424, 92);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(146, 15);
+            this.label59.TabIndex = 57;
+            this.label59.Text = "PERSON ID LOOK UP";
+            this.label59.UseWaitCursor = true;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox7.Location = new System.Drawing.Point(414, 85);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(300, 29);
+            this.pictureBox7.TabIndex = 58;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.UseWaitCursor = true;
+            // 
+            // picBoxLogoMemTrans
+            // 
+            this.picBoxLogoMemTrans.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxLogoMemTrans.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBoxLogoMemTrans.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
+            this.picBoxLogoMemTrans.Location = new System.Drawing.Point(690, 3);
+            this.picBoxLogoMemTrans.MaximumSize = new System.Drawing.Size(70, 70);
+            this.picBoxLogoMemTrans.MinimumSize = new System.Drawing.Size(70, 70);
+            this.picBoxLogoMemTrans.Name = "picBoxLogoMemTrans";
+            this.picBoxLogoMemTrans.Size = new System.Drawing.Size(70, 70);
+            this.picBoxLogoMemTrans.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxLogoMemTrans.TabIndex = 56;
+            this.picBoxLogoMemTrans.TabStop = false;
+            this.picBoxLogoMemTrans.UseWaitCursor = true;
+            // 
+            // lblMemTrans
+            // 
+            this.lblMemTrans.AutoSize = true;
+            this.lblMemTrans.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblMemTrans.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMemTrans.Location = new System.Drawing.Point(27, 19);
+            this.lblMemTrans.Name = "lblMemTrans";
+            this.lblMemTrans.Size = new System.Drawing.Size(194, 18);
+            this.lblMemTrans.TabIndex = 54;
+            this.lblMemTrans.Text = "Membership Transaction";
+            this.lblMemTrans.UseWaitCursor = true;
+            // 
+            // picBoxMemTrans
+            // 
+            this.picBoxMemTrans.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxMemTrans.Location = new System.Drawing.Point(0, 0);
+            this.picBoxMemTrans.Margin = new System.Windows.Forms.Padding(0);
+            this.picBoxMemTrans.Name = "picBoxMemTrans";
+            this.picBoxMemTrans.Size = new System.Drawing.Size(770, 75);
+            this.picBoxMemTrans.TabIndex = 55;
+            this.picBoxMemTrans.TabStop = false;
+            this.picBoxMemTrans.UseWaitCursor = true;
+            // 
             // lblOtherPerson4
             // 
             this.lblOtherPerson4.AutoSize = true;
-            this.lblOtherPerson4.Location = new System.Drawing.Point(598, 427);
+            this.lblOtherPerson4.Location = new System.Drawing.Point(607, 427);
             this.lblOtherPerson4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOtherPerson4.Name = "lblOtherPerson4";
             this.lblOtherPerson4.Size = new System.Drawing.Size(41, 13);
@@ -2045,7 +2211,7 @@
             // lblOtherPerson3
             // 
             this.lblOtherPerson3.AutoSize = true;
-            this.lblOtherPerson3.Location = new System.Drawing.Point(598, 400);
+            this.lblOtherPerson3.Location = new System.Drawing.Point(607, 400);
             this.lblOtherPerson3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOtherPerson3.Name = "lblOtherPerson3";
             this.lblOtherPerson3.Size = new System.Drawing.Size(41, 13);
@@ -2056,7 +2222,7 @@
             // lblOtherPerson2
             // 
             this.lblOtherPerson2.AutoSize = true;
-            this.lblOtherPerson2.Location = new System.Drawing.Point(598, 373);
+            this.lblOtherPerson2.Location = new System.Drawing.Point(607, 373);
             this.lblOtherPerson2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOtherPerson2.Name = "lblOtherPerson2";
             this.lblOtherPerson2.Size = new System.Drawing.Size(41, 13);
@@ -2067,7 +2233,7 @@
             // lblOtherPerson1
             // 
             this.lblOtherPerson1.AutoSize = true;
-            this.lblOtherPerson1.Location = new System.Drawing.Point(598, 347);
+            this.lblOtherPerson1.Location = new System.Drawing.Point(607, 347);
             this.lblOtherPerson1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOtherPerson1.Name = "lblOtherPerson1";
             this.lblOtherPerson1.Size = new System.Drawing.Size(41, 13);
@@ -2085,8 +2251,8 @@
             this.dataGridViewMembership.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2});
-            this.dataGridViewMembership.Location = new System.Drawing.Point(405, 122);
-            this.dataGridViewMembership.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewMembership.Location = new System.Drawing.Point(414, 122);
+            this.dataGridViewMembership.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewMembership.MultiSelect = false;
             this.dataGridViewMembership.Name = "dataGridViewMembership";
             this.dataGridViewMembership.ReadOnly = true;
@@ -2113,7 +2279,7 @@
             // lblOthMbr4
             // 
             this.lblOthMbr4.AutoSize = true;
-            this.lblOthMbr4.Location = new System.Drawing.Point(404, 427);
+            this.lblOthMbr4.Location = new System.Drawing.Point(413, 427);
             this.lblOthMbr4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOthMbr4.Name = "lblOthMbr4";
             this.lblOthMbr4.Size = new System.Drawing.Size(86, 13);
@@ -2124,7 +2290,7 @@
             // lblOthMbr2
             // 
             this.lblOthMbr2.AutoSize = true;
-            this.lblOthMbr2.Location = new System.Drawing.Point(404, 373);
+            this.lblOthMbr2.Location = new System.Drawing.Point(413, 373);
             this.lblOthMbr2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOthMbr2.Name = "lblOthMbr2";
             this.lblOthMbr2.Size = new System.Drawing.Size(86, 13);
@@ -2135,7 +2301,7 @@
             // lblOthMbr1
             // 
             this.lblOthMbr1.AutoSize = true;
-            this.lblOthMbr1.Location = new System.Drawing.Point(404, 347);
+            this.lblOthMbr1.Location = new System.Drawing.Point(413, 347);
             this.lblOthMbr1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOthMbr1.Name = "lblOthMbr1";
             this.lblOthMbr1.Size = new System.Drawing.Size(86, 13);
@@ -2146,7 +2312,7 @@
             // lblOthMbr3
             // 
             this.lblOthMbr3.AutoSize = true;
-            this.lblOthMbr3.Location = new System.Drawing.Point(404, 400);
+            this.lblOthMbr3.Location = new System.Drawing.Point(413, 400);
             this.lblOthMbr3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOthMbr3.Name = "lblOthMbr3";
             this.lblOthMbr3.Size = new System.Drawing.Size(86, 13);
@@ -2156,8 +2322,8 @@
             // 
             // txtBxOthPrson2
             // 
-            this.txtBxOthPrson2.Location = new System.Drawing.Point(500, 371);
-            this.txtBxOthPrson2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBxOthPrson2.Location = new System.Drawing.Point(509, 371);
+            this.txtBxOthPrson2.Margin = new System.Windows.Forms.Padding(2);
             this.txtBxOthPrson2.Name = "txtBxOthPrson2";
             this.txtBxOthPrson2.Size = new System.Drawing.Size(76, 20);
             this.txtBxOthPrson2.TabIndex = 24;
@@ -2166,8 +2332,8 @@
             // 
             // txtBxOthPrson3
             // 
-            this.txtBxOthPrson3.Location = new System.Drawing.Point(500, 398);
-            this.txtBxOthPrson3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBxOthPrson3.Location = new System.Drawing.Point(509, 398);
+            this.txtBxOthPrson3.Margin = new System.Windows.Forms.Padding(2);
             this.txtBxOthPrson3.Name = "txtBxOthPrson3";
             this.txtBxOthPrson3.Size = new System.Drawing.Size(76, 20);
             this.txtBxOthPrson3.TabIndex = 23;
@@ -2176,8 +2342,8 @@
             // 
             // txtBxOthPrson4
             // 
-            this.txtBxOthPrson4.Location = new System.Drawing.Point(500, 425);
-            this.txtBxOthPrson4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBxOthPrson4.Location = new System.Drawing.Point(509, 425);
+            this.txtBxOthPrson4.Margin = new System.Windows.Forms.Padding(2);
             this.txtBxOthPrson4.Name = "txtBxOthPrson4";
             this.txtBxOthPrson4.Size = new System.Drawing.Size(76, 20);
             this.txtBxOthPrson4.TabIndex = 22;
@@ -2186,8 +2352,8 @@
             // 
             // txtBxOthPrson1
             // 
-            this.txtBxOthPrson1.Location = new System.Drawing.Point(500, 344);
-            this.txtBxOthPrson1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBxOthPrson1.Location = new System.Drawing.Point(509, 344);
+            this.txtBxOthPrson1.Margin = new System.Windows.Forms.Padding(2);
             this.txtBxOthPrson1.Name = "txtBxOthPrson1";
             this.txtBxOthPrson1.Size = new System.Drawing.Size(76, 20);
             this.txtBxOthPrson1.TabIndex = 21;
@@ -2204,7 +2370,7 @@
             "3",
             "4"});
             this.cmbBoxOthMbrsOnAcct.Location = new System.Drawing.Point(215, 372);
-            this.cmbBoxOthMbrsOnAcct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbBoxOthMbrsOnAcct.Margin = new System.Windows.Forms.Padding(2);
             this.cmbBoxOthMbrsOnAcct.Name = "cmbBoxOthMbrsOnAcct";
             this.cmbBoxOthMbrsOnAcct.Size = new System.Drawing.Size(100, 21);
             this.cmbBoxOthMbrsOnAcct.TabIndex = 20;
@@ -2222,7 +2388,7 @@
             // NewMembershipSvTrnsctn
             // 
             this.NewMembershipSvTrnsctn.Location = new System.Drawing.Point(88, 434);
-            this.NewMembershipSvTrnsctn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NewMembershipSvTrnsctn.Margin = new System.Windows.Forms.Padding(2);
             this.NewMembershipSvTrnsctn.Name = "NewMembershipSvTrnsctn";
             this.NewMembershipSvTrnsctn.Size = new System.Drawing.Size(190, 23);
             this.NewMembershipSvTrnsctn.TabIndex = 17;
@@ -2406,7 +2572,7 @@
             this.tabPage3.Controls.Add(this.picBoxDeductStudRecpt);
             this.tabPage3.Controls.Add(this.picBoxClassAttendClassTrans);
             this.tabPage3.Controls.Add(this.dataGridClassAttendStudRecpt);
-            this.tabPage3.Controls.Add(this.picJgmsLogoStudRecpt);
+            this.tabPage3.Controls.Add(this.picBoxJgmsLogoStudRecpt);
             this.tabPage3.Controls.Add(this.txtBoxDateStudRecpt);
             this.tabPage3.Controls.Add(this.lblClassTransDate);
             this.tabPage3.Controls.Add(this.lblTransID);
@@ -2419,95 +2585,6 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Student Receipt";
             this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.picBoxJgmsLogoMemPay);
-            this.tabPage4.Controls.Add(this.lblPayTypeTotalMemPay);
-            this.tabPage4.Controls.Add(this.txtBoxPayTypeTotalTotal);
-            this.tabPage4.Controls.Add(this.lblPayTypeTotalTotalMemPay);
-            this.tabPage4.Controls.Add(this.txtBoxPayTypeVouchersMemPay);
-            this.tabPage4.Controls.Add(this.lblPayTypeVouchersMemPay);
-            this.tabPage4.Controls.Add(this.textBox1);
-            this.tabPage4.Controls.Add(this.lblPayTypeCheckMemPay);
-            this.tabPage4.Controls.Add(this.textBox2);
-            this.tabPage4.Controls.Add(this.lblPayTypeSquareMemPay);
-            this.tabPage4.Controls.Add(this.textBox4);
-            this.tabPage4.Controls.Add(this.lblPayTypeCashMemPay);
-            this.tabPage4.Controls.Add(this.tabControlMemPay);
-            this.tabPage4.Controls.Add(this.txtBoxPageNumMemPay);
-            this.tabPage4.Controls.Add(this.txtBoxTodaysDateMembrRep);
-            this.tabPage4.Controls.Add(this.txtBoxDateMemPay);
-            this.tabPage4.Controls.Add(this.lblDateMemPay);
-            this.tabPage4.Controls.Add(this.lblTransIDMemPay);
-            this.tabPage4.Controls.Add(this.label58);
-            this.tabPage4.Controls.Add(this.txtBoxTransIDMemPay);
-            this.tabPage4.Controls.Add(this.picBoxMemPay);
-            this.tabPage4.Controls.Add(this.picBoxPayTypeTotalMemPay);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(770, 475);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Membership Payments";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.txtBoxTodaysDateClassPay);
-            this.tabPage5.Controls.Add(this.lblRecptClassPay);
-            this.tabPage5.Controls.Add(this.lblPayTypeTotalClassPay);
-            this.tabPage5.Controls.Add(this.txtBoxPayTypeTotalTotalClassPay);
-            this.tabPage5.Controls.Add(this.lblPayTypeTotalTotalClassPay);
-            this.tabPage5.Controls.Add(this.txtBoxPayTypeVoucherClassPay);
-            this.tabPage5.Controls.Add(this.lblPayTypeVouchersClassPay);
-            this.tabPage5.Controls.Add(this.txtBoxPayTypeCheckClassPay);
-            this.tabPage5.Controls.Add(this.lblPayTypeCheckClassPay);
-            this.tabPage5.Controls.Add(this.txtBoxPayTypeSquareClassPay);
-            this.tabPage5.Controls.Add(this.lblPayTypeSquareClassPay);
-            this.tabPage5.Controls.Add(this.txtBoxPayTypeClassPay);
-            this.tabPage5.Controls.Add(this.lblPayTypeCashClassPay);
-            this.tabPage5.Controls.Add(this.tabControlClassPay);
-            this.tabPage5.Controls.Add(this.txtBoxPageClassPay);
-            this.tabPage5.Controls.Add(this.pictureBox15);
-            this.tabPage5.Controls.Add(this.txtBoxDateClassPay);
-            this.tabPage5.Controls.Add(this.lblDateClassPay);
-            this.tabPage5.Controls.Add(this.lblTransIDClassPay);
-            this.tabPage5.Controls.Add(this.txtBoxTransIDClassPay);
-            this.tabPage5.Controls.Add(this.lblClassPay);
-            this.tabPage5.Controls.Add(this.picBoxClassPay);
-            this.tabPage5.Controls.Add(this.pictureBox8);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(770, 475);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Class Payments";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.tabClassRosters);
-            this.tabPage6.Controls.Add(this.txtBoxConsumableCostClassRosters);
-            this.tabPage6.Controls.Add(this.txtBoxClassCostClassRosters);
-            this.tabPage6.Controls.Add(this.txtBoxTimeClassRosters);
-            this.tabPage6.Controls.Add(this.txtBoxDateClassRosters);
-            this.tabPage6.Controls.Add(this.lblConsumableCostClassRosters);
-            this.tabPage6.Controls.Add(this.lblClassCostClassRosters);
-            this.tabPage6.Controls.Add(this.lblTimeClassRosters);
-            this.tabPage6.Controls.Add(this.lblDateClassRosters);
-            this.tabPage6.Controls.Add(this.picBoxJgmsLogoClassRosters);
-            this.tabPage6.Controls.Add(this.txtBoxInstructorClassRosters);
-            this.tabPage6.Controls.Add(this.lblInstructorClassRosters);
-            this.tabPage6.Controls.Add(this.lblClassNameClassRosters);
-            this.tabPage6.Controls.Add(this.txtBoxClassNameClassRosters);
-            this.tabPage6.Controls.Add(this.lblClassRosters);
-            this.tabPage6.Controls.Add(this.picBoxClassRosters);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(770, 475);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Class Rosters Report";
-            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // txtBoxTotalClassFeeStudRecpt
             // 
@@ -2603,9 +2680,9 @@
             this.lblClassAttending.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClassAttending.Location = new System.Drawing.Point(28, 230);
             this.lblClassAttending.Name = "lblClassAttending";
-            this.lblClassAttending.Size = new System.Drawing.Size(135, 15);
+            this.lblClassAttending.Size = new System.Drawing.Size(159, 15);
             this.lblClassAttending.TabIndex = 118;
-            this.lblClassAttending.Text = "Class(es) Attending:";
+            this.lblClassAttending.Text = "CLASS(ES) ATTENDING";
             // 
             // lblDeductStudRecpt
             // 
@@ -2614,9 +2691,9 @@
             this.lblDeductStudRecpt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDeductStudRecpt.Location = new System.Drawing.Point(278, 92);
             this.lblDeductStudRecpt.Name = "lblDeductStudRecpt";
-            this.lblDeductStudRecpt.Size = new System.Drawing.Size(97, 15);
+            this.lblDeductStudRecpt.Size = new System.Drawing.Size(112, 15);
             this.lblDeductStudRecpt.TabIndex = 117;
-            this.lblDeductStudRecpt.Text = "Deductible(s):";
+            this.lblDeductStudRecpt.Text = "DEDUCTIBLE(S)";
             // 
             // lblChkNumClassTrans
             // 
@@ -2634,9 +2711,9 @@
             this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label57.Location = new System.Drawing.Point(508, 92);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(67, 15);
+            this.label57.Size = new System.Drawing.Size(79, 15);
             this.label57.TabIndex = 115;
-            this.label57.Text = "Total Fee";
+            this.label57.Text = "TOTAL FEE";
             // 
             // lblPaymentTypeClassTrans
             // 
@@ -2805,19 +2882,19 @@
             this.Column22.Name = "Column22";
             this.Column22.Width = 80;
             // 
-            // picJgmsLogoStudRecpt
+            // picBoxJgmsLogoStudRecpt
             // 
-            this.picJgmsLogoStudRecpt.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picJgmsLogoStudRecpt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picJgmsLogoStudRecpt.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
-            this.picJgmsLogoStudRecpt.Location = new System.Drawing.Point(663, 3);
-            this.picJgmsLogoStudRecpt.MaximumSize = new System.Drawing.Size(70, 70);
-            this.picJgmsLogoStudRecpt.MinimumSize = new System.Drawing.Size(70, 70);
-            this.picJgmsLogoStudRecpt.Name = "picJgmsLogoStudRecpt";
-            this.picJgmsLogoStudRecpt.Size = new System.Drawing.Size(70, 70);
-            this.picJgmsLogoStudRecpt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picJgmsLogoStudRecpt.TabIndex = 106;
-            this.picJgmsLogoStudRecpt.TabStop = false;
+            this.picBoxJgmsLogoStudRecpt.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxJgmsLogoStudRecpt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBoxJgmsLogoStudRecpt.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
+            this.picBoxJgmsLogoStudRecpt.Location = new System.Drawing.Point(690, 3);
+            this.picBoxJgmsLogoStudRecpt.MaximumSize = new System.Drawing.Size(70, 70);
+            this.picBoxJgmsLogoStudRecpt.MinimumSize = new System.Drawing.Size(70, 70);
+            this.picBoxJgmsLogoStudRecpt.Name = "picBoxJgmsLogoStudRecpt";
+            this.picBoxJgmsLogoStudRecpt.Size = new System.Drawing.Size(70, 70);
+            this.picBoxJgmsLogoStudRecpt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxJgmsLogoStudRecpt.TabIndex = 106;
+            this.picBoxJgmsLogoStudRecpt.TabStop = false;
             // 
             // txtBoxDateStudRecpt
             // 
@@ -2869,19 +2946,50 @@
             // picBoxClassTrans
             // 
             this.picBoxClassTrans.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxClassTrans.Location = new System.Drawing.Point(14, 0);
+            this.picBoxClassTrans.Location = new System.Drawing.Point(0, 0);
             this.picBoxClassTrans.Margin = new System.Windows.Forms.Padding(0);
             this.picBoxClassTrans.Name = "picBoxClassTrans";
-            this.picBoxClassTrans.Size = new System.Drawing.Size(732, 75);
+            this.picBoxClassTrans.Size = new System.Drawing.Size(770, 75);
             this.picBoxClassTrans.TabIndex = 105;
             this.picBoxClassTrans.TabStop = false;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.picBoxJgmsLogoMemPay);
+            this.tabPage4.Controls.Add(this.lblPayTypeTotalMemPay);
+            this.tabPage4.Controls.Add(this.txtBoxPayTypeTotalTotal);
+            this.tabPage4.Controls.Add(this.lblPayTypeTotalTotalMemPay);
+            this.tabPage4.Controls.Add(this.txtBoxPayTypeVouchersMemPay);
+            this.tabPage4.Controls.Add(this.lblPayTypeVouchersMemPay);
+            this.tabPage4.Controls.Add(this.textBox1);
+            this.tabPage4.Controls.Add(this.lblPayTypeCheckMemPay);
+            this.tabPage4.Controls.Add(this.textBox2);
+            this.tabPage4.Controls.Add(this.lblPayTypeSquareMemPay);
+            this.tabPage4.Controls.Add(this.textBox4);
+            this.tabPage4.Controls.Add(this.lblPayTypeCashMemPay);
+            this.tabPage4.Controls.Add(this.tabControlMemPay);
+            this.tabPage4.Controls.Add(this.txtBoxPageNumMemPay);
+            this.tabPage4.Controls.Add(this.txtBoxTodaysDateMembrRep);
+            this.tabPage4.Controls.Add(this.txtBoxDateMemPay);
+            this.tabPage4.Controls.Add(this.lblDateMemPay);
+            this.tabPage4.Controls.Add(this.lblTransIDMemPay);
+            this.tabPage4.Controls.Add(this.label58);
+            this.tabPage4.Controls.Add(this.txtBoxTransIDMemPay);
+            this.tabPage4.Controls.Add(this.picBoxMemPay);
+            this.tabPage4.Controls.Add(this.picBoxPayTypeTotalMemPay);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(770, 475);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Membership Payments";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // picBoxJgmsLogoMemPay
             // 
             this.picBoxJgmsLogoMemPay.BackColor = System.Drawing.Color.WhiteSmoke;
             this.picBoxJgmsLogoMemPay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picBoxJgmsLogoMemPay.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
-            this.picBoxJgmsLogoMemPay.Location = new System.Drawing.Point(663, 3);
+            this.picBoxJgmsLogoMemPay.Location = new System.Drawing.Point(690, 3);
             this.picBoxJgmsLogoMemPay.MaximumSize = new System.Drawing.Size(70, 70);
             this.picBoxJgmsLogoMemPay.MinimumSize = new System.Drawing.Size(70, 70);
             this.picBoxJgmsLogoMemPay.Name = "picBoxJgmsLogoMemPay";
@@ -2998,30 +3106,30 @@
             // 
             // tabControlMemPay
             // 
-            this.tabControlMemPay.Controls.Add(this.tabPage7);
-            this.tabControlMemPay.Controls.Add(this.tabPage8);
-            this.tabControlMemPay.Controls.Add(this.tabPage9);
-            this.tabControlMemPay.Controls.Add(this.tabPage10);
+            this.tabControlMemPay.Controls.Add(this.tabPageCashMemPay);
+            this.tabControlMemPay.Controls.Add(this.tabPageSquareMemPay);
+            this.tabControlMemPay.Controls.Add(this.tabPageCheckMemPay);
+            this.tabControlMemPay.Controls.Add(this.tabPageVoucherMemPay);
             this.tabControlMemPay.Location = new System.Drawing.Point(17, 80);
             this.tabControlMemPay.Name = "tabControlMemPay";
             this.tabControlMemPay.SelectedIndex = 0;
             this.tabControlMemPay.Size = new System.Drawing.Size(509, 328);
             this.tabControlMemPay.TabIndex = 104;
             // 
-            // tabPage7
+            // tabPageCashMemPay
             // 
-            this.tabPage7.Controls.Add(this.txtBoxCashTotalMemPay);
-            this.tabPage7.Controls.Add(this.lblTotalCashMemPay);
-            this.tabPage7.Controls.Add(this.lblCashMemPay);
-            this.tabPage7.Controls.Add(this.picBoxMemPayCash);
-            this.tabPage7.Controls.Add(this.dataGridViewCashMemPay);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(501, 302);
-            this.tabPage7.TabIndex = 0;
-            this.tabPage7.Text = "Cash";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            this.tabPageCashMemPay.Controls.Add(this.txtBoxCashTotalMemPay);
+            this.tabPageCashMemPay.Controls.Add(this.lblTotalCashMemPay);
+            this.tabPageCashMemPay.Controls.Add(this.lblCashMemPay);
+            this.tabPageCashMemPay.Controls.Add(this.picBoxMemPayCash);
+            this.tabPageCashMemPay.Controls.Add(this.dataGridViewCashMemPay);
+            this.tabPageCashMemPay.Location = new System.Drawing.Point(4, 22);
+            this.tabPageCashMemPay.Name = "tabPageCashMemPay";
+            this.tabPageCashMemPay.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageCashMemPay.Size = new System.Drawing.Size(501, 302);
+            this.tabPageCashMemPay.TabIndex = 0;
+            this.tabPageCashMemPay.Text = "Cash";
+            this.tabPageCashMemPay.UseVisualStyleBackColor = true;
             // 
             // txtBoxCashTotalMemPay
             // 
@@ -3049,9 +3157,9 @@
             this.lblCashMemPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCashMemPay.Location = new System.Drawing.Point(11, 11);
             this.lblCashMemPay.Name = "lblCashMemPay";
-            this.lblCashMemPay.Size = new System.Drawing.Size(47, 15);
+            this.lblCashMemPay.Size = new System.Drawing.Size(43, 15);
             this.lblCashMemPay.TabIndex = 33;
-            this.lblCashMemPay.Text = "CASH:";
+            this.lblCashMemPay.Text = "CASH";
             // 
             // picBoxMemPayCash
             // 
@@ -3103,20 +3211,20 @@
             this.Column29.HeaderText = "Date";
             this.Column29.Name = "Column29";
             // 
-            // tabPage8
+            // tabPageSquareMemPay
             // 
-            this.tabPage8.Controls.Add(this.txtBoxSquareTotalMemPay);
-            this.tabPage8.Controls.Add(this.lblSquareTotalMemPay);
-            this.tabPage8.Controls.Add(this.lblSquareMemPay);
-            this.tabPage8.Controls.Add(this.picBoxSquareMemPay);
-            this.tabPage8.Controls.Add(this.dataGridViewSquareMemPay);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(501, 302);
-            this.tabPage8.TabIndex = 1;
-            this.tabPage8.Text = "Square";
-            this.tabPage8.UseVisualStyleBackColor = true;
+            this.tabPageSquareMemPay.Controls.Add(this.txtBoxSquareTotalMemPay);
+            this.tabPageSquareMemPay.Controls.Add(this.lblSquareTotalMemPay);
+            this.tabPageSquareMemPay.Controls.Add(this.lblSquareMemPay);
+            this.tabPageSquareMemPay.Controls.Add(this.picBoxSquareMemPay);
+            this.tabPageSquareMemPay.Controls.Add(this.dataGridViewSquareMemPay);
+            this.tabPageSquareMemPay.Location = new System.Drawing.Point(4, 22);
+            this.tabPageSquareMemPay.Name = "tabPageSquareMemPay";
+            this.tabPageSquareMemPay.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageSquareMemPay.Size = new System.Drawing.Size(501, 302);
+            this.tabPageSquareMemPay.TabIndex = 1;
+            this.tabPageSquareMemPay.Text = "Square";
+            this.tabPageSquareMemPay.UseVisualStyleBackColor = true;
             // 
             // txtBoxSquareTotalMemPay
             // 
@@ -3144,9 +3252,9 @@
             this.lblSquareMemPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSquareMemPay.Location = new System.Drawing.Point(11, 11);
             this.lblSquareMemPay.Name = "lblSquareMemPay";
-            this.lblSquareMemPay.Size = new System.Drawing.Size(67, 15);
+            this.lblSquareMemPay.Size = new System.Drawing.Size(63, 15);
             this.lblSquareMemPay.TabIndex = 38;
-            this.lblSquareMemPay.Text = "SQUARE:";
+            this.lblSquareMemPay.Text = "SQUARE";
             // 
             // picBoxSquareMemPay
             // 
@@ -3198,19 +3306,19 @@
             this.dataGridViewTextBoxColumn7.HeaderText = "Date";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             // 
-            // tabPage9
+            // tabPageCheckMemPay
             // 
-            this.tabPage9.Controls.Add(this.txtBoxCheckTotalMemPay);
-            this.tabPage9.Controls.Add(this.lblCheckTotalMemPay);
-            this.tabPage9.Controls.Add(this.lblCheckMemPay);
-            this.tabPage9.Controls.Add(this.picBoxCheckMemPay);
-            this.tabPage9.Controls.Add(this.dataGridViewCheckMemPay);
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(501, 302);
-            this.tabPage9.TabIndex = 2;
-            this.tabPage9.Text = "Check";
-            this.tabPage9.UseVisualStyleBackColor = true;
+            this.tabPageCheckMemPay.Controls.Add(this.txtBoxCheckTotalMemPay);
+            this.tabPageCheckMemPay.Controls.Add(this.lblCheckTotalMemPay);
+            this.tabPageCheckMemPay.Controls.Add(this.lblCheckMemPay);
+            this.tabPageCheckMemPay.Controls.Add(this.picBoxCheckMemPay);
+            this.tabPageCheckMemPay.Controls.Add(this.dataGridViewCheckMemPay);
+            this.tabPageCheckMemPay.Location = new System.Drawing.Point(4, 22);
+            this.tabPageCheckMemPay.Name = "tabPageCheckMemPay";
+            this.tabPageCheckMemPay.Size = new System.Drawing.Size(501, 302);
+            this.tabPageCheckMemPay.TabIndex = 2;
+            this.tabPageCheckMemPay.Text = "Check";
+            this.tabPageCheckMemPay.UseVisualStyleBackColor = true;
             // 
             // txtBoxCheckTotalMemPay
             // 
@@ -3292,20 +3400,20 @@
             this.dataGridViewTextBoxColumn12.HeaderText = "Date";
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             // 
-            // tabPage10
+            // tabPageVoucherMemPay
             // 
-            this.tabPage10.Controls.Add(this.txtBoxVoucherTotalMemPay);
-            this.tabPage10.Controls.Add(this.lblTotalMemPay);
-            this.tabPage10.Controls.Add(this.lblVoucherMemPay);
-            this.tabPage10.Controls.Add(this.picBoxVoucherMemPay);
-            this.tabPage10.Controls.Add(this.dataGridViewVoucherMemPay);
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(501, 302);
-            this.tabPage10.TabIndex = 3;
-            this.tabPage10.Text = "Voucher";
-            this.tabPage10.UseVisualStyleBackColor = true;
+            this.tabPageVoucherMemPay.Controls.Add(this.txtBoxVoucherTotalMemPay);
+            this.tabPageVoucherMemPay.Controls.Add(this.lblTotalMemPay);
+            this.tabPageVoucherMemPay.Controls.Add(this.lblVoucherMemPay);
+            this.tabPageVoucherMemPay.Controls.Add(this.picBoxVoucherMemPay);
+            this.tabPageVoucherMemPay.Controls.Add(this.dataGridViewVoucherMemPay);
+            this.tabPageVoucherMemPay.Location = new System.Drawing.Point(4, 22);
+            this.tabPageVoucherMemPay.Name = "tabPageVoucherMemPay";
+            this.tabPageVoucherMemPay.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageVoucherMemPay.Size = new System.Drawing.Size(501, 302);
+            this.tabPageVoucherMemPay.TabIndex = 3;
+            this.tabPageVoucherMemPay.Text = "Vouchers";
+            this.tabPageVoucherMemPay.UseVisualStyleBackColor = true;
             // 
             // txtBoxVoucherTotalMemPay
             // 
@@ -3333,9 +3441,9 @@
             this.lblVoucherMemPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVoucherMemPay.Location = new System.Drawing.Point(11, 11);
             this.lblVoucherMemPay.Name = "lblVoucherMemPay";
-            this.lblVoucherMemPay.Size = new System.Drawing.Size(77, 15);
+            this.lblVoucherMemPay.Size = new System.Drawing.Size(82, 15);
             this.lblVoucherMemPay.TabIndex = 43;
-            this.lblVoucherMemPay.Text = "VOUCHER:";
+            this.lblVoucherMemPay.Text = "VOUCHERS";
             // 
             // picBoxVoucherMemPay
             // 
@@ -3453,10 +3561,10 @@
             // picBoxMemPay
             // 
             this.picBoxMemPay.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxMemPay.Location = new System.Drawing.Point(14, 0);
+            this.picBoxMemPay.Location = new System.Drawing.Point(0, 0);
             this.picBoxMemPay.Margin = new System.Windows.Forms.Padding(0);
             this.picBoxMemPay.Name = "picBoxMemPay";
-            this.picBoxMemPay.Size = new System.Drawing.Size(732, 75);
+            this.picBoxMemPay.Size = new System.Drawing.Size(770, 75);
             this.picBoxMemPay.TabIndex = 101;
             this.picBoxMemPay.TabStop = false;
             // 
@@ -3469,6 +3577,38 @@
             this.picBoxPayTypeTotalMemPay.Size = new System.Drawing.Size(182, 29);
             this.picBoxPayTypeTotalMemPay.TabIndex = 117;
             this.picBoxPayTypeTotalMemPay.TabStop = false;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.txtBoxTodaysDateClassPay);
+            this.tabPage5.Controls.Add(this.lblRecptClassPay);
+            this.tabPage5.Controls.Add(this.lblPayTypeTotalClassPay);
+            this.tabPage5.Controls.Add(this.txtBoxPayTypeTotalTotalClassPay);
+            this.tabPage5.Controls.Add(this.lblPayTypeTotalTotalClassPay);
+            this.tabPage5.Controls.Add(this.txtBoxPayTypeVoucherClassPay);
+            this.tabPage5.Controls.Add(this.lblPayTypeVouchersClassPay);
+            this.tabPage5.Controls.Add(this.txtBoxPayTypeCheckClassPay);
+            this.tabPage5.Controls.Add(this.lblPayTypeCheckClassPay);
+            this.tabPage5.Controls.Add(this.txtBoxPayTypeSquareClassPay);
+            this.tabPage5.Controls.Add(this.lblPayTypeSquareClassPay);
+            this.tabPage5.Controls.Add(this.txtBoxPayTypeClassPay);
+            this.tabPage5.Controls.Add(this.lblPayTypeCashClassPay);
+            this.tabPage5.Controls.Add(this.tabControlClassPay);
+            this.tabPage5.Controls.Add(this.txtBoxPageClassPay);
+            this.tabPage5.Controls.Add(this.picBoxJgmsLogoClassPay);
+            this.tabPage5.Controls.Add(this.txtBoxDateClassPay);
+            this.tabPage5.Controls.Add(this.lblDateClassPay);
+            this.tabPage5.Controls.Add(this.lblTransIDClassPay);
+            this.tabPage5.Controls.Add(this.txtBoxTransIDClassPay);
+            this.tabPage5.Controls.Add(this.lblClassPay);
+            this.tabPage5.Controls.Add(this.picBoxClassPay);
+            this.tabPage5.Controls.Add(this.pictureBox8);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(770, 475);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Class Payments";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // txtBoxTodaysDateClassPay
             // 
@@ -3488,46 +3628,6 @@
             this.lblRecptClassPay.Size = new System.Drawing.Size(157, 13);
             this.lblRecptClassPay.TabIndex = 125;
             this.lblRecptClassPay.Text = "Receipt #      __________";
-            // 
-            // txtBoxTotalClassPay
-            // 
-            this.txtBoxTotalClassPay.BackColor = System.Drawing.SystemColors.Control;
-            this.txtBoxTotalClassPay.Location = new System.Drawing.Point(401, 9);
-            this.txtBoxTotalClassPay.Name = "txtBoxTotalClassPay";
-            this.txtBoxTotalClassPay.Size = new System.Drawing.Size(98, 20);
-            this.txtBoxTotalClassPay.TabIndex = 36;
-            // 
-            // lblTotalClassPay
-            // 
-            this.lblTotalClassPay.AutoSize = true;
-            this.lblTotalClassPay.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTotalClassPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalClassPay.Location = new System.Drawing.Point(348, 12);
-            this.lblTotalClassPay.Name = "lblTotalClassPay";
-            this.lblTotalClassPay.Size = new System.Drawing.Size(51, 13);
-            this.lblTotalClassPay.TabIndex = 35;
-            this.lblTotalClassPay.Text = "TOTAL:";
-            // 
-            // lblCashClassPay
-            // 
-            this.lblCashClassPay.AutoSize = true;
-            this.lblCashClassPay.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCashClassPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCashClassPay.Location = new System.Drawing.Point(11, 11);
-            this.lblCashClassPay.Name = "lblCashClassPay";
-            this.lblCashClassPay.Size = new System.Drawing.Size(43, 15);
-            this.lblCashClassPay.TabIndex = 33;
-            this.lblCashClassPay.Text = "CASH";
-            // 
-            // picBoxCashClassPay
-            // 
-            this.picBoxCashClassPay.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxCashClassPay.Location = new System.Drawing.Point(1, 5);
-            this.picBoxCashClassPay.Margin = new System.Windows.Forms.Padding(0);
-            this.picBoxCashClassPay.Name = "picBoxCashClassPay";
-            this.picBoxCashClassPay.Size = new System.Drawing.Size(541, 29);
-            this.picBoxCashClassPay.TabIndex = 34;
-            this.picBoxCashClassPay.TabStop = false;
             // 
             // lblPayTypeTotalClassPay
             // 
@@ -3661,6 +3761,46 @@
             this.tabPage11.TabIndex = 0;
             this.tabPage11.Text = "Cash";
             this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // txtBoxTotalClassPay
+            // 
+            this.txtBoxTotalClassPay.BackColor = System.Drawing.SystemColors.Control;
+            this.txtBoxTotalClassPay.Location = new System.Drawing.Point(401, 9);
+            this.txtBoxTotalClassPay.Name = "txtBoxTotalClassPay";
+            this.txtBoxTotalClassPay.Size = new System.Drawing.Size(98, 20);
+            this.txtBoxTotalClassPay.TabIndex = 36;
+            // 
+            // lblTotalClassPay
+            // 
+            this.lblTotalClassPay.AutoSize = true;
+            this.lblTotalClassPay.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblTotalClassPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalClassPay.Location = new System.Drawing.Point(348, 12);
+            this.lblTotalClassPay.Name = "lblTotalClassPay";
+            this.lblTotalClassPay.Size = new System.Drawing.Size(51, 13);
+            this.lblTotalClassPay.TabIndex = 35;
+            this.lblTotalClassPay.Text = "TOTAL:";
+            // 
+            // lblCashClassPay
+            // 
+            this.lblCashClassPay.AutoSize = true;
+            this.lblCashClassPay.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblCashClassPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCashClassPay.Location = new System.Drawing.Point(11, 11);
+            this.lblCashClassPay.Name = "lblCashClassPay";
+            this.lblCashClassPay.Size = new System.Drawing.Size(43, 15);
+            this.lblCashClassPay.TabIndex = 33;
+            this.lblCashClassPay.Text = "CASH";
+            // 
+            // picBoxCashClassPay
+            // 
+            this.picBoxCashClassPay.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxCashClassPay.Location = new System.Drawing.Point(1, 5);
+            this.picBoxCashClassPay.Margin = new System.Windows.Forms.Padding(0);
+            this.picBoxCashClassPay.Name = "picBoxCashClassPay";
+            this.picBoxCashClassPay.Size = new System.Drawing.Size(541, 29);
+            this.picBoxCashClassPay.TabIndex = 34;
+            this.picBoxCashClassPay.TabStop = false;
             // 
             // dataGridViewCashClassPay
             // 
@@ -3988,19 +4128,19 @@
             this.txtBoxPageClassPay.Size = new System.Drawing.Size(100, 20);
             this.txtBoxPageClassPay.TabIndex = 112;
             // 
-            // pictureBox15
+            // picBoxJgmsLogoClassPay
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox15.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
-            this.pictureBox15.Location = new System.Drawing.Point(663, 3);
-            this.pictureBox15.MaximumSize = new System.Drawing.Size(70, 70);
-            this.pictureBox15.MinimumSize = new System.Drawing.Size(70, 70);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 111;
-            this.pictureBox15.TabStop = false;
+            this.picBoxJgmsLogoClassPay.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxJgmsLogoClassPay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBoxJgmsLogoClassPay.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
+            this.picBoxJgmsLogoClassPay.Location = new System.Drawing.Point(690, 3);
+            this.picBoxJgmsLogoClassPay.MaximumSize = new System.Drawing.Size(70, 70);
+            this.picBoxJgmsLogoClassPay.MinimumSize = new System.Drawing.Size(70, 70);
+            this.picBoxJgmsLogoClassPay.Name = "picBoxJgmsLogoClassPay";
+            this.picBoxJgmsLogoClassPay.Size = new System.Drawing.Size(70, 70);
+            this.picBoxJgmsLogoClassPay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxJgmsLogoClassPay.TabIndex = 111;
+            this.picBoxJgmsLogoClassPay.TabStop = false;
             // 
             // txtBoxDateClassPay
             // 
@@ -4052,12 +4192,71 @@
             // picBoxClassPay
             // 
             this.picBoxClassPay.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxClassPay.Location = new System.Drawing.Point(14, 0);
+            this.picBoxClassPay.Location = new System.Drawing.Point(0, 0);
             this.picBoxClassPay.Margin = new System.Windows.Forms.Padding(0);
             this.picBoxClassPay.Name = "picBoxClassPay";
-            this.picBoxClassPay.Size = new System.Drawing.Size(732, 75);
+            this.picBoxClassPay.Size = new System.Drawing.Size(770, 75);
             this.picBoxClassPay.TabIndex = 110;
             this.picBoxClassPay.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox8.Location = new System.Drawing.Point(542, 100);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(182, 29);
+            this.pictureBox8.TabIndex = 127;
+            this.pictureBox8.TabStop = false;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.tabClassRosters);
+            this.tabPage6.Controls.Add(this.txtBoxConsumableCostClassRosters);
+            this.tabPage6.Controls.Add(this.txtBoxClassCostClassRosters);
+            this.tabPage6.Controls.Add(this.txtBoxTimeClassRosters);
+            this.tabPage6.Controls.Add(this.txtBoxDateClassRosters);
+            this.tabPage6.Controls.Add(this.lblConsumableCostClassRosters);
+            this.tabPage6.Controls.Add(this.lblClassCostClassRosters);
+            this.tabPage6.Controls.Add(this.lblTimeClassRosters);
+            this.tabPage6.Controls.Add(this.lblDateClassRosters);
+            this.tabPage6.Controls.Add(this.picBoxJgmsLogoClassRosters);
+            this.tabPage6.Controls.Add(this.txtBoxInstructorClassRosters);
+            this.tabPage6.Controls.Add(this.lblInstructorClassRosters);
+            this.tabPage6.Controls.Add(this.lblClassNameClassRosters);
+            this.tabPage6.Controls.Add(this.txtBoxClassNameClassRosters);
+            this.tabPage6.Controls.Add(this.lblClassRosters);
+            this.tabPage6.Controls.Add(this.picBoxClassRosters);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(770, 475);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Class Rosters Report";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // tabClassRosters
+            // 
+            this.tabClassRosters.Controls.Add(this.tabPage15);
+            this.tabClassRosters.Controls.Add(this.tabPage16);
+            this.tabClassRosters.Location = new System.Drawing.Point(99, 119);
+            this.tabClassRosters.Name = "tabClassRosters";
+            this.tabClassRosters.SelectedIndex = 0;
+            this.tabClassRosters.Size = new System.Drawing.Size(504, 326);
+            this.tabClassRosters.TabIndex = 110;
+            // 
+            // tabPage15
+            // 
+            this.tabPage15.Controls.Add(this.lblRegistStudClassRosters);
+            this.tabPage15.Controls.Add(this.picBoxRegistStudClassRoster);
+            this.tabPage15.Controls.Add(this.dataGridViewRegistStudClassRosters);
+            this.tabPage15.Location = new System.Drawing.Point(4, 22);
+            this.tabPage15.Name = "tabPage15";
+            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage15.Size = new System.Drawing.Size(496, 300);
+            this.tabPage15.TabIndex = 0;
+            this.tabPage15.Text = "Registered Students";
+            this.tabPage15.UseVisualStyleBackColor = true;
             // 
             // lblRegistStudClassRosters
             // 
@@ -4066,9 +4265,19 @@
             this.lblRegistStudClassRosters.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistStudClassRosters.Location = new System.Drawing.Point(11, 12);
             this.lblRegistStudClassRosters.Name = "lblRegistStudClassRosters";
-            this.lblRegistStudClassRosters.Size = new System.Drawing.Size(137, 15);
+            this.lblRegistStudClassRosters.Size = new System.Drawing.Size(172, 15);
             this.lblRegistStudClassRosters.TabIndex = 33;
-            this.lblRegistStudClassRosters.Text = "Registered Students";
+            this.lblRegistStudClassRosters.Text = "REGISTERED STUDENTS";
+            // 
+            // picBoxRegistStudClassRoster
+            // 
+            this.picBoxRegistStudClassRoster.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picBoxRegistStudClassRoster.Location = new System.Drawing.Point(1, 6);
+            this.picBoxRegistStudClassRoster.Margin = new System.Windows.Forms.Padding(0);
+            this.picBoxRegistStudClassRoster.Name = "picBoxRegistStudClassRoster";
+            this.picBoxRegistStudClassRoster.Size = new System.Drawing.Size(541, 29);
+            this.picBoxRegistStudClassRoster.TabIndex = 34;
+            this.picBoxRegistStudClassRoster.TabStop = false;
             // 
             // dataGridViewRegistStudClassRosters
             // 
@@ -4110,39 +4319,6 @@
             this.Column1.HeaderText = "Receipt #";
             this.Column1.Name = "Column1";
             // 
-            // tabClassRosters
-            // 
-            this.tabClassRosters.Controls.Add(this.tabPage15);
-            this.tabClassRosters.Controls.Add(this.tabPage16);
-            this.tabClassRosters.Location = new System.Drawing.Point(99, 119);
-            this.tabClassRosters.Name = "tabClassRosters";
-            this.tabClassRosters.SelectedIndex = 0;
-            this.tabClassRosters.Size = new System.Drawing.Size(504, 326);
-            this.tabClassRosters.TabIndex = 110;
-            // 
-            // tabPage15
-            // 
-            this.tabPage15.Controls.Add(this.lblRegistStudClassRosters);
-            this.tabPage15.Controls.Add(this.picBoxRegistStudClassRoster);
-            this.tabPage15.Controls.Add(this.dataGridViewRegistStudClassRosters);
-            this.tabPage15.Location = new System.Drawing.Point(4, 22);
-            this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage15.Size = new System.Drawing.Size(496, 300);
-            this.tabPage15.TabIndex = 0;
-            this.tabPage15.Text = "Registered Students";
-            this.tabPage15.UseVisualStyleBackColor = true;
-            // 
-            // picBoxRegistStudClassRoster
-            // 
-            this.picBoxRegistStudClassRoster.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxRegistStudClassRoster.Location = new System.Drawing.Point(1, 6);
-            this.picBoxRegistStudClassRoster.Margin = new System.Windows.Forms.Padding(0);
-            this.picBoxRegistStudClassRoster.Name = "picBoxRegistStudClassRoster";
-            this.picBoxRegistStudClassRoster.Size = new System.Drawing.Size(541, 29);
-            this.picBoxRegistStudClassRoster.TabIndex = 34;
-            this.picBoxRegistStudClassRoster.TabStop = false;
-            // 
             // tabPage16
             // 
             this.tabPage16.Controls.Add(this.lblAltStudClassRoster);
@@ -4163,9 +4339,9 @@
             this.lblAltStudClassRoster.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAltStudClassRoster.Location = new System.Drawing.Point(11, 12);
             this.lblAltStudClassRoster.Name = "lblAltStudClassRoster";
-            this.lblAltStudClassRoster.Size = new System.Drawing.Size(128, 15);
+            this.lblAltStudClassRoster.Size = new System.Drawing.Size(162, 15);
             this.lblAltStudClassRoster.TabIndex = 38;
-            this.lblAltStudClassRoster.Text = "Alternate Students:";
+            this.lblAltStudClassRoster.Text = "ALTERNATE STUDENTS";
             // 
             // picBoxAltStudClassRoster
             // 
@@ -4285,7 +4461,7 @@
             this.picBoxJgmsLogoClassRosters.BackColor = System.Drawing.Color.WhiteSmoke;
             this.picBoxJgmsLogoClassRosters.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picBoxJgmsLogoClassRosters.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
-            this.picBoxJgmsLogoClassRosters.Location = new System.Drawing.Point(663, 3);
+            this.picBoxJgmsLogoClassRosters.Location = new System.Drawing.Point(690, 3);
             this.picBoxJgmsLogoClassRosters.MaximumSize = new System.Drawing.Size(70, 70);
             this.picBoxJgmsLogoClassRosters.MinimumSize = new System.Drawing.Size(70, 70);
             this.picBoxJgmsLogoClassRosters.Name = "picBoxJgmsLogoClassRosters";
@@ -4344,188 +4520,12 @@
             // picBoxClassRosters
             // 
             this.picBoxClassRosters.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxClassRosters.Location = new System.Drawing.Point(14, 0);
+            this.picBoxClassRosters.Location = new System.Drawing.Point(0, 0);
             this.picBoxClassRosters.Margin = new System.Windows.Forms.Padding(0);
             this.picBoxClassRosters.Name = "picBoxClassRosters";
-            this.picBoxClassRosters.Size = new System.Drawing.Size(732, 75);
+            this.picBoxClassRosters.Size = new System.Drawing.Size(770, 75);
             this.picBoxClassRosters.TabIndex = 100;
             this.picBoxClassRosters.TabStop = false;
-            // 
-            // txtBoxInstructClassSignUp
-            // 
-            this.txtBoxInstructClassSignUp.BackColor = System.Drawing.Color.LightBlue;
-            this.txtBoxInstructClassSignUp.Location = new System.Drawing.Point(19, 85);
-            this.txtBoxInstructClassSignUp.Multiline = true;
-            this.txtBoxInstructClassSignUp.Name = "txtBoxInstructClassSignUp";
-            this.txtBoxInstructClassSignUp.Size = new System.Drawing.Size(321, 112);
-            this.txtBoxInstructClassSignUp.TabIndex = 60;
-            this.txtBoxInstructClassSignUp.Text = resources.GetString("txtBoxInstructClassSignUp.Text");
-            this.txtBoxInstructClassSignUp.UseWaitCursor = true;
-            // 
-            // lblScheduledClassNewClass
-            // 
-            this.lblScheduledClassNewClass.AutoSize = true;
-            this.lblScheduledClassNewClass.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.lblScheduledClassNewClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScheduledClassNewClass.Location = new System.Drawing.Point(416, 291);
-            this.lblScheduledClassNewClass.Name = "lblScheduledClassNewClass";
-            this.lblScheduledClassNewClass.Size = new System.Drawing.Size(133, 15);
-            this.lblScheduledClassNewClass.TabIndex = 58;
-            this.lblScheduledClassNewClass.Text = "Scheduled Classes:";
-            this.lblScheduledClassNewClass.UseWaitCursor = true;
-            // 
-            // picBoxClassesNewClass
-            // 
-            this.picBoxClassesNewClass.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxClassesNewClass.Location = new System.Drawing.Point(406, 285);
-            this.picBoxClassesNewClass.Margin = new System.Windows.Forms.Padding(0);
-            this.picBoxClassesNewClass.Name = "picBoxClassesNewClass";
-            this.picBoxClassesNewClass.Size = new System.Drawing.Size(300, 29);
-            this.picBoxClassesNewClass.TabIndex = 59;
-            this.picBoxClassesNewClass.TabStop = false;
-            this.picBoxClassesNewClass.UseWaitCursor = true;
-            // 
-            // lblPersonLookUpNewClass
-            // 
-            this.lblPersonLookUpNewClass.AutoSize = true;
-            this.lblPersonLookUpNewClass.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPersonLookUpNewClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPersonLookUpNewClass.Location = new System.Drawing.Point(415, 92);
-            this.lblPersonLookUpNewClass.Name = "lblPersonLookUpNewClass";
-            this.lblPersonLookUpNewClass.Size = new System.Drawing.Size(131, 15);
-            this.lblPersonLookUpNewClass.TabIndex = 56;
-            this.lblPersonLookUpNewClass.Text = "Person ID Look Up:";
-            this.lblPersonLookUpNewClass.UseWaitCursor = true;
-            // 
-            // picBoxPersLookUpNewClass
-            // 
-            this.picBoxPersLookUpNewClass.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxPersLookUpNewClass.Location = new System.Drawing.Point(405, 85);
-            this.picBoxPersLookUpNewClass.Margin = new System.Windows.Forms.Padding(0);
-            this.picBoxPersLookUpNewClass.Name = "picBoxPersLookUpNewClass";
-            this.picBoxPersLookUpNewClass.Size = new System.Drawing.Size(300, 29);
-            this.picBoxPersLookUpNewClass.TabIndex = 57;
-            this.picBoxPersLookUpNewClass.TabStop = false;
-            this.picBoxPersLookUpNewClass.UseWaitCursor = true;
-            // 
-            // picJgmsLogo5
-            // 
-            this.picJgmsLogo5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picJgmsLogo5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picJgmsLogo5.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
-            this.picJgmsLogo5.Location = new System.Drawing.Point(663, 3);
-            this.picJgmsLogo5.MaximumSize = new System.Drawing.Size(70, 70);
-            this.picJgmsLogo5.MinimumSize = new System.Drawing.Size(70, 70);
-            this.picJgmsLogo5.Name = "picJgmsLogo5";
-            this.picJgmsLogo5.Size = new System.Drawing.Size(70, 70);
-            this.picJgmsLogo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picJgmsLogo5.TabIndex = 55;
-            this.picJgmsLogo5.TabStop = false;
-            this.picJgmsLogo5.UseWaitCursor = true;
-            // 
-            // lblNewClassTrans
-            // 
-            this.lblNewClassTrans.AutoSize = true;
-            this.lblNewClassTrans.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNewClassTrans.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNewClassTrans.Location = new System.Drawing.Point(28, 19);
-            this.lblNewClassTrans.Name = "lblNewClassTrans";
-            this.lblNewClassTrans.Size = new System.Drawing.Size(161, 18);
-            this.lblNewClassTrans.TabIndex = 53;
-            this.lblNewClassTrans.Text = "Class Sign-Up Form";
-            this.lblNewClassTrans.UseWaitCursor = true;
-            // 
-            // picBoxNewClassTrans
-            // 
-            this.picBoxNewClassTrans.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxNewClassTrans.Location = new System.Drawing.Point(14, 0);
-            this.picBoxNewClassTrans.Margin = new System.Windows.Forms.Padding(0);
-            this.picBoxNewClassTrans.Name = "picBoxNewClassTrans";
-            this.picBoxNewClassTrans.Size = new System.Drawing.Size(732, 75);
-            this.picBoxNewClassTrans.TabIndex = 54;
-            this.picBoxNewClassTrans.TabStop = false;
-            this.picBoxNewClassTrans.UseWaitCursor = true;
-            // 
-            // txtBoxInstructNewMem
-            // 
-            this.txtBoxInstructNewMem.BackColor = System.Drawing.Color.LightBlue;
-            this.txtBoxInstructNewMem.Location = new System.Drawing.Point(19, 85);
-            this.txtBoxInstructNewMem.Multiline = true;
-            this.txtBoxInstructNewMem.Name = "txtBoxInstructNewMem";
-            this.txtBoxInstructNewMem.Size = new System.Drawing.Size(321, 83);
-            this.txtBoxInstructNewMem.TabIndex = 59;
-            this.txtBoxInstructNewMem.Text = resources.GetString("txtBoxInstructNewMem.Text");
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(415, 92);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(131, 15);
-            this.label59.TabIndex = 57;
-            this.label59.Text = "Person ID Look Up:";
-            this.label59.UseWaitCursor = true;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox7.Location = new System.Drawing.Point(405, 85);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(300, 29);
-            this.pictureBox7.TabIndex = 58;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.UseWaitCursor = true;
-            // 
-            // picBoxLogo
-            // 
-            this.picBoxLogo.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBoxLogo.Image = global::jgmsInterface.Properties.Resources.jgmsLogo;
-            this.picBoxLogo.Location = new System.Drawing.Point(662, 3);
-            this.picBoxLogo.MaximumSize = new System.Drawing.Size(70, 70);
-            this.picBoxLogo.MinimumSize = new System.Drawing.Size(70, 70);
-            this.picBoxLogo.Name = "picBoxLogo";
-            this.picBoxLogo.Size = new System.Drawing.Size(70, 70);
-            this.picBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBoxLogo.TabIndex = 56;
-            this.picBoxLogo.TabStop = false;
-            this.picBoxLogo.UseWaitCursor = true;
-            // 
-            // lblMemTrans
-            // 
-            this.lblMemTrans.AutoSize = true;
-            this.lblMemTrans.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.lblMemTrans.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMemTrans.Location = new System.Drawing.Point(27, 19);
-            this.lblMemTrans.Name = "lblMemTrans";
-            this.lblMemTrans.Size = new System.Drawing.Size(194, 18);
-            this.lblMemTrans.TabIndex = 54;
-            this.lblMemTrans.Text = "Membership Transaction";
-            this.lblMemTrans.UseWaitCursor = true;
-            // 
-            // picBoxMemTrans
-            // 
-            this.picBoxMemTrans.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxMemTrans.Location = new System.Drawing.Point(13, 0);
-            this.picBoxMemTrans.Margin = new System.Windows.Forms.Padding(0);
-            this.picBoxMemTrans.Name = "picBoxMemTrans";
-            this.picBoxMemTrans.Size = new System.Drawing.Size(732, 75);
-            this.picBoxMemTrans.TabIndex = 55;
-            this.picBoxMemTrans.TabStop = false;
-            this.picBoxMemTrans.UseWaitCursor = true;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox8.Location = new System.Drawing.Point(542, 100);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(182, 29);
-            this.pictureBox8.TabIndex = 127;
-            this.pictureBox8.TabStop = false;
             // 
             // Form1
             // 
@@ -4563,49 +4563,54 @@
             this.tabTransactions.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxClassesNewClass)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxPersLookUpNewClass)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoClassSign)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxNewClassTrans)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClassTransaction)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMemTrans)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxMemTrans)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMembership)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
-            this.tabPage6.ResumeLayout(false);
-            this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridDedctblStudRecpt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxTotalFeeStudRecpt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxDeductStudRecpt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxClassAttendClassTrans)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridClassAttendStudRecpt)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picJgmsLogoStudRecpt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoStudRecpt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxClassTrans)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoMemPay)).EndInit();
             this.tabControlMemPay.ResumeLayout(false);
-            this.tabPage7.ResumeLayout(false);
-            this.tabPage7.PerformLayout();
+            this.tabPageCashMemPay.ResumeLayout(false);
+            this.tabPageCashMemPay.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxMemPayCash)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCashMemPay)).EndInit();
-            this.tabPage8.ResumeLayout(false);
-            this.tabPage8.PerformLayout();
+            this.tabPageSquareMemPay.ResumeLayout(false);
+            this.tabPageSquareMemPay.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxSquareMemPay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSquareMemPay)).EndInit();
-            this.tabPage9.ResumeLayout(false);
-            this.tabPage9.PerformLayout();
+            this.tabPageCheckMemPay.ResumeLayout(false);
+            this.tabPageCheckMemPay.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxCheckMemPay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCheckMemPay)).EndInit();
-            this.tabPage10.ResumeLayout(false);
-            this.tabPage10.PerformLayout();
+            this.tabPageVoucherMemPay.ResumeLayout(false);
+            this.tabPageVoucherMemPay.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxVoucherMemPay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVoucherMemPay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxMemPay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxPayTypeTotalMemPay)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxCashClassPay)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
             this.tabControlClassPay.ResumeLayout(false);
             this.tabPage11.ResumeLayout(false);
             this.tabPage11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCashClassPay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCashClassPay)).EndInit();
             this.tabPage12.ResumeLayout(false);
             this.tabPage12.PerformLayout();
@@ -4619,27 +4624,22 @@
             this.tabPage14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxVoucherClassPay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVoucherClassPay)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoClassPay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxClassPay)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRegistStudClassRosters)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             this.tabClassRosters.ResumeLayout(false);
             this.tabPage15.ResumeLayout(false);
             this.tabPage15.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxRegistStudClassRoster)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRegistStudClassRosters)).EndInit();
             this.tabPage16.ResumeLayout(false);
             this.tabPage16.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxAltStudClassRoster)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAltStudClassRoster)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxJgmsLogoClassRosters)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxClassRosters)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxClassesNewClass)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxPersLookUpNewClass)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picJgmsLogo5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxNewClassTrans)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxMemTrans)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -4872,7 +4872,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column19;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column20;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column22;
-        private System.Windows.Forms.PictureBox picJgmsLogoStudRecpt;
+        private System.Windows.Forms.PictureBox picBoxJgmsLogoStudRecpt;
         private System.Windows.Forms.TextBox txtBoxDateStudRecpt;
         private System.Windows.Forms.Label lblClassTransDate;
         private System.Windows.Forms.Label lblTransID;
@@ -4893,7 +4893,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label lblPayTypeCashMemPay;
         private System.Windows.Forms.TabControl tabControlMemPay;
-        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.TabPage tabPageCashMemPay;
         private System.Windows.Forms.TextBox txtBoxCashTotalMemPay;
         private System.Windows.Forms.Label lblTotalCashMemPay;
         private System.Windows.Forms.Label lblCashMemPay;
@@ -4904,7 +4904,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column27;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column28;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column29;
-        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.TabPage tabPageSquareMemPay;
         private System.Windows.Forms.TextBox txtBoxSquareTotalMemPay;
         private System.Windows.Forms.Label lblSquareTotalMemPay;
         private System.Windows.Forms.Label lblSquareMemPay;
@@ -4915,7 +4915,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TabPage tabPageCheckMemPay;
         private System.Windows.Forms.TextBox txtBoxCheckTotalMemPay;
         private System.Windows.Forms.Label lblCheckTotalMemPay;
         private System.Windows.Forms.Label lblCheckMemPay;
@@ -4926,7 +4926,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
-        private System.Windows.Forms.TabPage tabPage10;
+        private System.Windows.Forms.TabPage tabPageVoucherMemPay;
         private System.Windows.Forms.TextBox txtBoxVoucherTotalMemPay;
         private System.Windows.Forms.Label lblTotalMemPay;
         private System.Windows.Forms.Label lblVoucherMemPay;
@@ -5004,7 +5004,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn37;
         private System.Windows.Forms.TextBox txtBoxPageClassPay;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox picBoxJgmsLogoClassPay;
         private System.Windows.Forms.TextBox txtBoxDateClassPay;
         private System.Windows.Forms.Label lblDateClassPay;
         private System.Windows.Forms.Label lblTransIDClassPay;
@@ -5049,13 +5049,13 @@
         private System.Windows.Forms.PictureBox picBoxClassesNewClass;
         private System.Windows.Forms.Label lblPersonLookUpNewClass;
         private System.Windows.Forms.PictureBox picBoxPersLookUpNewClass;
-        private System.Windows.Forms.PictureBox picJgmsLogo5;
+        private System.Windows.Forms.PictureBox picBoxJgmsLogoClassSign;
         private System.Windows.Forms.Label lblNewClassTrans;
         private System.Windows.Forms.PictureBox picBoxNewClassTrans;
         private System.Windows.Forms.TextBox txtBoxInstructNewMem;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox picBoxLogo;
+        private System.Windows.Forms.PictureBox picBoxLogoMemTrans;
         private System.Windows.Forms.Label lblMemTrans;
         private System.Windows.Forms.PictureBox picBoxMemTrans;
         private System.Windows.Forms.PictureBox pictureBox8;
