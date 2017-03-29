@@ -136,11 +136,11 @@
             this.txtBxNewMbrshpMbrshpType = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.dataGrid_scheduleReport = new System.Windows.Forms.DataGridView();
-=======
+//=======
             this.tabPage5 = new System.Windows.Forms.TabPage();
->>>>>>> refs/remotes/origin/master
+//>>>>>>> refs/remotes/origin/master
             this.tabControl1.SuspendLayout();
             this.memberTabPage.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -165,16 +165,16 @@
             this.scheduleReportTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.transactionsTabPage.SuspendLayout();
-<<<<<<< HEAD
-            this.tabControl4.SuspendLayout();
+//<<<<<<< HEAD
+//            this.tabControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid_scheduleReport)).BeginInit();
-=======
+//=======
             this.tabTransactions.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClassTransaction)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMembership)).BeginInit();
->>>>>>> refs/remotes/origin/master
+//>>>>>>> refs/remotes/origin/master
             this.SuspendLayout();
             // 
             // tabControl1
@@ -436,20 +436,20 @@
             this.groupBoxScheduleInfo.TabStop = false;
             this.groupBoxScheduleInfo.Text = "Important Schedule Information in boxes below";
             // 
-<<<<<<< HEAD
-=======
+//<<<<<<< HEAD
+//=======
             // groupBoxInstructorTable
             // 
-            this.groupBoxInstructorTable.Location = new System.Drawing.Point(316, 123);
-            this.groupBoxInstructorTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBoxInstructorTable.Name = "groupBoxInstructorTable";
-            this.groupBoxInstructorTable.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBoxInstructorTable.Size = new System.Drawing.Size(291, 156);
-            this.groupBoxInstructorTable.TabIndex = 5;
-            this.groupBoxInstructorTable.TabStop = false;
-            this.groupBoxInstructorTable.Text = "Instructor Table:";
+//            this.groupBoxInstructorTable.Location = new System.Drawing.Point(316, 123);
+//            this.groupBoxInstructorTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.groupBoxInstructorTable.Name = "groupBoxInstructorTable";
+//            this.groupBoxInstructorTable.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.groupBoxInstructorTable.Size = new System.Drawing.Size(291, 156);
+//            this.groupBoxInstructorTable.TabIndex = 5;
+//            this.groupBoxInstructorTable.TabStop = false;
+//            this.groupBoxInstructorTable.Text = "Instructor Table:";
             // 
->>>>>>> refs/remotes/origin/master
+//>>>>>>> refs/remotes/origin/master
             // groupBoxClassLookup
             // 
             this.groupBoxClassLookup.Controls.Add(this.txtbox_ClassSchedForm_Prereq);
@@ -565,7 +565,7 @@
             this.classReportTabPage.Text = "Class Report";
             this.classReportTabPage.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             // dataGrid_classReport
             // 
             this.dataGrid_classReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -574,499 +574,499 @@
             this.dataGrid_classReport.RowHeadersVisible = false;
             this.dataGrid_classReport.Size = new System.Drawing.Size(488, 231);
             this.dataGrid_classReport.TabIndex = 4;
-=======
+//=======
             // textBox39
             // 
-            this.textBox39.Location = new System.Drawing.Point(511, 443);
-            this.textBox39.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(88, 22);
-            this.textBox39.TabIndex = 57;
+//            this.textBox39.Location = new System.Drawing.Point(511, 443);
+//            this.textBox39.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+ //           this.textBox39.Name = "textBox39";
+ //           this.textBox39.Size = new System.Drawing.Size(88, 22);
+ //           this.textBox39.TabIndex = 57;
             // 
             // textBox40
             // 
-            this.textBox40.Location = new System.Drawing.Point(820, 443);
-            this.textBox40.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(60, 22);
-            this.textBox40.TabIndex = 56;
+//            this.textBox40.Location = new System.Drawing.Point(820, 443);
+//            this.textBox40.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox40.Name = "textBox40";
+ //           this.textBox40.Size = new System.Drawing.Size(60, 22);
+//            this.textBox40.TabIndex = 56;
             // 
             // textBox41
             // 
-            this.textBox41.Location = new System.Drawing.Point(751, 443);
-            this.textBox41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(60, 22);
-            this.textBox41.TabIndex = 55;
+//            this.textBox41.Location = new System.Drawing.Point(751, 443);
+ //           this.textBox41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox41.Name = "textBox41";
+//            this.textBox41.Size = new System.Drawing.Size(60, 22);
+//            this.textBox41.TabIndex = 55;
             // 
             // textBox42
             // 
-            this.textBox42.Location = new System.Drawing.Point(681, 443);
-            this.textBox42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(60, 22);
-            this.textBox42.TabIndex = 54;
+ //           this.textBox42.Location = new System.Drawing.Point(681, 443);
+ //           this.textBox42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+ //           this.textBox42.Name = "textBox42";
+//            this.textBox42.Size = new System.Drawing.Size(60, 22);
+ //           this.textBox42.TabIndex = 54;
             // 
             // textBox43
             // 
-            this.textBox43.Location = new System.Drawing.Point(612, 443);
-            this.textBox43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(60, 22);
-            this.textBox43.TabIndex = 53;
+//            this.textBox43.Location = new System.Drawing.Point(612, 443);
+ //           this.textBox43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox43.Name = "textBox43";
+//            this.textBox43.Size = new System.Drawing.Size(60, 22);
+//            this.textBox43.TabIndex = 53;
             // 
             // richTextBox14
             // 
-            this.richTextBox14.Location = new System.Drawing.Point(361, 396);
-            this.richTextBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.richTextBox14.Name = "richTextBox14";
-            this.richTextBox14.Size = new System.Drawing.Size(140, 69);
-            this.richTextBox14.TabIndex = 52;
-            this.richTextBox14.Text = "";
+//            this.richTextBox14.Location = new System.Drawing.Point(361, 396);
+ //           this.richTextBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.richTextBox14.Name = "richTextBox14";
+//            this.richTextBox14.Size = new System.Drawing.Size(140, 69);
+ //           this.richTextBox14.TabIndex = 52;
+ //           this.richTextBox14.Text = "";
             // 
             // richTextBox15
             // 
-            this.richTextBox15.Location = new System.Drawing.Point(207, 398);
-            this.richTextBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.richTextBox15.Name = "richTextBox15";
-            this.richTextBox15.Size = new System.Drawing.Size(140, 69);
-            this.richTextBox15.TabIndex = 51;
-            this.richTextBox15.Text = "";
+ //           this.richTextBox15.Location = new System.Drawing.Point(207, 398);
+ //           this.richTextBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+ //           this.richTextBox15.Name = "richTextBox15";
+ //           this.richTextBox15.Size = new System.Drawing.Size(140, 69);
+//            this.richTextBox15.TabIndex = 51;
+ //           this.richTextBox15.Text = "";
             // 
             // textBox44
             // 
-            this.textBox44.Location = new System.Drawing.Point(97, 442);
-            this.textBox44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(93, 22);
-            this.textBox44.TabIndex = 50;
+ //           this.textBox44.Location = new System.Drawing.Point(97, 442);
+ //           this.textBox44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+ //           this.textBox44.Name = "textBox44";
+ //           this.textBox44.Size = new System.Drawing.Size(93, 22);
+ //           this.textBox44.TabIndex = 50;
             // 
             // textBox45
             // 
-            this.textBox45.Location = new System.Drawing.Point(21, 442);
-            this.textBox45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(60, 22);
-            this.textBox45.TabIndex = 49;
+ //           this.textBox45.Location = new System.Drawing.Point(21, 442);
+ //           this.textBox45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+  ///          this.textBox45.Name = "textBox45";
+  //          this.textBox45.Size = new System.Drawing.Size(60, 22);
+ //           this.textBox45.TabIndex = 49;
             // 
             // label32
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(820, 409);
-            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(43, 17);
-            this.label32.TabIndex = 48;
-            this.label32.Text = "Time:";
+//            this.label32.AutoSize = true;
+//            this.label32.Location = new System.Drawing.Point(820, 409);
+ //           this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+  //          this.label32.Name = "label32";
+  //          this.label32.Size = new System.Drawing.Size(43, 17);
+  //          this.label32.TabIndex = 48;
+  //          this.label32.Text = "Time:";
             // 
             // label33
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(756, 409);
-            this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(42, 17);
-            this.label33.TabIndex = 47;
-            this.label33.Text = "Date:";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(684, 409);
-            this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(50, 17);
-            this.label34.TabIndex = 46;
-            this.label34.Text = "Hours:";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(608, 409);
-            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(66, 17);
-            this.label35.TabIndex = 45;
-            this.label35.Text = "Capacity:";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(511, 409);
-            this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(90, 17);
-            this.label36.TabIndex = 44;
-            this.label36.Text = "Consumable:";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(373, 377);
-            this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(100, 17);
-            this.label37.TabIndex = 43;
-            this.label37.Text = "Pre-requisites:";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(233, 377);
-            this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(83, 17);
-            this.label38.TabIndex = 42;
-            this.label38.Text = "Description:";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(104, 409);
-            this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(87, 17);
-            this.label39.TabIndex = 41;
-            this.label39.Text = "Class Name:";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(17, 409);
-            this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(63, 17);
-            this.label40.TabIndex = 40;
-            this.label40.Text = "Class ID:";
-            // 
-            // textBox32
-            // 
-            this.textBox32.Location = new System.Drawing.Point(511, 346);
-            this.textBox32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(88, 22);
-            this.textBox32.TabIndex = 39;
-            // 
-            // textBox33
-            // 
-            this.textBox33.Location = new System.Drawing.Point(820, 346);
-            this.textBox33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(60, 22);
-            this.textBox33.TabIndex = 38;
-            // 
-            // textBox34
-            // 
-            this.textBox34.Location = new System.Drawing.Point(751, 346);
-            this.textBox34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(60, 22);
-            this.textBox34.TabIndex = 37;
-            // 
-            // textBox35
-            // 
-            this.textBox35.Location = new System.Drawing.Point(681, 346);
-            this.textBox35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(60, 22);
-            this.textBox35.TabIndex = 36;
-            // 
-            // textBox36
-            // 
-            this.textBox36.Location = new System.Drawing.Point(612, 346);
-            this.textBox36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(60, 22);
-            this.textBox36.TabIndex = 35;
-            // 
-            // richTextBox12
-            // 
-            this.richTextBox12.Location = new System.Drawing.Point(361, 299);
-            this.richTextBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.richTextBox12.Name = "richTextBox12";
-            this.richTextBox12.Size = new System.Drawing.Size(140, 69);
-            this.richTextBox12.TabIndex = 34;
-            this.richTextBox12.Text = "";
-            // 
-            // richTextBox13
-            // 
-            this.richTextBox13.Location = new System.Drawing.Point(207, 300);
-            this.richTextBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.richTextBox13.Name = "richTextBox13";
-            this.richTextBox13.Size = new System.Drawing.Size(140, 69);
-            this.richTextBox13.TabIndex = 33;
-            this.richTextBox13.Text = "";
-            // 
-            // textBox37
-            // 
-            this.textBox37.Location = new System.Drawing.Point(97, 345);
-            this.textBox37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(93, 22);
-            this.textBox37.TabIndex = 32;
-            // 
-            // textBox38
-            // 
-            this.textBox38.Location = new System.Drawing.Point(21, 345);
-            this.textBox38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(60, 22);
-            this.textBox38.TabIndex = 31;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(820, 311);
-            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(43, 17);
-            this.label23.TabIndex = 30;
-            this.label23.Text = "Time:";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(756, 311);
-            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(42, 17);
-            this.label24.TabIndex = 29;
-            this.label24.Text = "Date:";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(684, 311);
-            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(50, 17);
-            this.label25.TabIndex = 28;
-            this.label25.Text = "Hours:";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(608, 311);
-            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(66, 17);
-            this.label26.TabIndex = 27;
-            this.label26.Text = "Capacity:";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(511, 311);
-            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(90, 17);
-            this.label27.TabIndex = 26;
-            this.label27.Text = "Consumable:";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(373, 279);
-            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(100, 17);
-            this.label28.TabIndex = 25;
-            this.label28.Text = "Pre-requisites:";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(233, 279);
-            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(83, 17);
-            this.label29.TabIndex = 24;
-            this.label29.Text = "Description:";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(104, 311);
-            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(87, 17);
-            this.label30.TabIndex = 23;
-            this.label30.Text = "Class Name:";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(17, 311);
-            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(63, 17);
-            this.label31.TabIndex = 22;
-            this.label31.Text = "Class ID:";
-            // 
-            // textBox31
-            // 
-            this.textBox31.Location = new System.Drawing.Point(511, 249);
-            this.textBox31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(88, 22);
-            this.textBox31.TabIndex = 21;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Location = new System.Drawing.Point(820, 249);
-            this.textBox30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(60, 22);
-            this.textBox30.TabIndex = 20;
-            // 
-            // textBox29
-            // 
-            this.textBox29.Location = new System.Drawing.Point(751, 249);
-            this.textBox29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(60, 22);
-            this.textBox29.TabIndex = 19;
-            // 
-            // textBox28
-            // 
-            this.textBox28.Location = new System.Drawing.Point(681, 249);
-            this.textBox28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(60, 22);
-            this.textBox28.TabIndex = 18;
-            // 
-            // textBox27
-            // 
-            this.textBox27.Location = new System.Drawing.Point(612, 249);
-            this.textBox27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(60, 22);
-            this.textBox27.TabIndex = 17;
-            // 
-            // richTextBox11
-            // 
-            this.richTextBox11.Location = new System.Drawing.Point(361, 202);
-            this.richTextBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.richTextBox11.Name = "richTextBox11";
-            this.richTextBox11.Size = new System.Drawing.Size(140, 69);
-            this.richTextBox11.TabIndex = 16;
-            this.richTextBox11.Text = "";
-            // 
-            // richTextBox10
-            // 
-            this.richTextBox10.Location = new System.Drawing.Point(207, 203);
-            this.richTextBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.richTextBox10.Name = "richTextBox10";
-            this.richTextBox10.Size = new System.Drawing.Size(140, 69);
-            this.richTextBox10.TabIndex = 15;
-            this.richTextBox10.Text = "";
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(97, 247);
-            this.textBox26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(93, 22);
-            this.textBox26.TabIndex = 14;
-            // 
-            // textBox25
-            // 
-            this.textBox25.Location = new System.Drawing.Point(21, 247);
-            this.textBox25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(60, 22);
-            this.textBox25.TabIndex = 13;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(820, 214);
-            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(43, 17);
-            this.label22.TabIndex = 12;
-            this.label22.Text = "Time:";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(756, 214);
-            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(42, 17);
-            this.label21.TabIndex = 11;
-            this.label21.Text = "Date:";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(684, 214);
-            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(50, 17);
-            this.label20.TabIndex = 10;
-            this.label20.Text = "Hours:";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(608, 214);
-            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(66, 17);
-            this.label19.TabIndex = 9;
-            this.label19.Text = "Capacity:";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(511, 214);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(90, 17);
-            this.label18.TabIndex = 8;
-            this.label18.Text = "Consumable:";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(373, 182);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(100, 17);
-            this.label17.TabIndex = 7;
-            this.label17.Text = "Pre-requisites:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(233, 182);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(83, 17);
-            this.label16.TabIndex = 6;
-            this.label16.Text = "Description:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(104, 214);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(87, 17);
-            this.label15.TabIndex = 5;
-            this.label15.Text = "Class Name:";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(17, 214);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(63, 17);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "Class ID:";
->>>>>>> refs/remotes/origin/master
+//            this.label33.AutoSize = true;
+  //          this.label33.Location = new System.Drawing.Point(756, 409);
+ //           this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+ //           this.label33.Name = "label33";
+ //           this.label33.Size = new System.Drawing.Size(42, 17);
+ //           this.label33.TabIndex = 47;
+//            this.label33.Text = "Date:";
+            //// 
+            //// label34
+            //// 
+            //this.label34.AutoSize = true;
+            //this.label34.Location = new System.Drawing.Point(684, 409);
+            //this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label34.Name = "label34";
+            //this.label34.Size = new System.Drawing.Size(50, 17);
+            //this.label34.TabIndex = 46;
+            //this.label34.Text = "Hours:";
+            //// 
+            //// label35
+            //// 
+            //this.label35.AutoSize = true;
+            //this.label35.Location = new System.Drawing.Point(608, 409);
+            //this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label35.Name = "label35";
+            //this.label35.Size = new System.Drawing.Size(66, 17);
+            //this.label35.TabIndex = 45;
+            //this.label35.Text = "Capacity:";
+            //// 
+            //// label36
+            //// 
+            //this.label36.AutoSize = true;
+            //this.label36.Location = new System.Drawing.Point(511, 409);
+            //this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label36.Name = "label36";
+            //this.label36.Size = new System.Drawing.Size(90, 17);
+            //this.label36.TabIndex = 44;
+            //this.label36.Text = "Consumable:";
+            //// 
+            //// label37
+            //// 
+            //this.label37.AutoSize = true;
+            //this.label37.Location = new System.Drawing.Point(373, 377);
+            //this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label37.Name = "label37";
+            //this.label37.Size = new System.Drawing.Size(100, 17);
+            //this.label37.TabIndex = 43;
+            //this.label37.Text = "Pre-requisites:";
+            //// 
+            //// label38
+            //// 
+            //this.label38.AutoSize = true;
+            //this.label38.Location = new System.Drawing.Point(233, 377);
+            //this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label38.Name = "label38";
+            //this.label38.Size = new System.Drawing.Size(83, 17);
+            //this.label38.TabIndex = 42;
+            //this.label38.Text = "Description:";
+            //// 
+            //// label39
+            //// 
+            //this.label39.AutoSize = true;
+            //this.label39.Location = new System.Drawing.Point(104, 409);
+            //this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label39.Name = "label39";
+            //this.label39.Size = new System.Drawing.Size(87, 17);
+            //this.label39.TabIndex = 41;
+            //this.label39.Text = "Class Name:";
+            //// 
+            //// label40
+            //// 
+            //this.label40.AutoSize = true;
+            //this.label40.Location = new System.Drawing.Point(17, 409);
+            //this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label40.Name = "label40";
+            //this.label40.Size = new System.Drawing.Size(63, 17);
+            //this.label40.TabIndex = 40;
+            //this.label40.Text = "Class ID:";
+            //// 
+            //// textBox32
+            //// 
+            //this.textBox32.Location = new System.Drawing.Point(511, 346);
+            //this.textBox32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox32.Name = "textBox32";
+            //this.textBox32.Size = new System.Drawing.Size(88, 22);
+            //this.textBox32.TabIndex = 39;
+            //// 
+            //// textBox33
+            //// 
+            //this.textBox33.Location = new System.Drawing.Point(820, 346);
+            //this.textBox33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox33.Name = "textBox33";
+            //this.textBox33.Size = new System.Drawing.Size(60, 22);
+            //this.textBox33.TabIndex = 38;
+            //// 
+            //// textBox34
+            //// 
+            //this.textBox34.Location = new System.Drawing.Point(751, 346);
+            //this.textBox34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox34.Name = "textBox34";
+            //this.textBox34.Size = new System.Drawing.Size(60, 22);
+            //this.textBox34.TabIndex = 37;
+            //// 
+            //// textBox35
+            //// 
+            //this.textBox35.Location = new System.Drawing.Point(681, 346);
+            //this.textBox35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox35.Name = "textBox35";
+            //this.textBox35.Size = new System.Drawing.Size(60, 22);
+            //this.textBox35.TabIndex = 36;
+            //// 
+            //// textBox36
+            //// 
+            //this.textBox36.Location = new System.Drawing.Point(612, 346);
+            //this.textBox36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox36.Name = "textBox36";
+            //this.textBox36.Size = new System.Drawing.Size(60, 22);
+            //this.textBox36.TabIndex = 35;
+            //// 
+            //// richTextBox12
+            //// 
+            //this.richTextBox12.Location = new System.Drawing.Point(361, 299);
+            //this.richTextBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.richTextBox12.Name = "richTextBox12";
+            //this.richTextBox12.Size = new System.Drawing.Size(140, 69);
+            //this.richTextBox12.TabIndex = 34;
+            //this.richTextBox12.Text = "";
+            //// 
+            //// richTextBox13
+            //// 
+            //this.richTextBox13.Location = new System.Drawing.Point(207, 300);
+            //this.richTextBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.richTextBox13.Name = "richTextBox13";
+            //this.richTextBox13.Size = new System.Drawing.Size(140, 69);
+            //this.richTextBox13.TabIndex = 33;
+            //this.richTextBox13.Text = "";
+            //// 
+            //// textBox37
+            //// 
+            //this.textBox37.Location = new System.Drawing.Point(97, 345);
+            //this.textBox37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox37.Name = "textBox37";
+            //this.textBox37.Size = new System.Drawing.Size(93, 22);
+            //this.textBox37.TabIndex = 32;
+            //// 
+            //// textBox38
+            //// 
+            //this.textBox38.Location = new System.Drawing.Point(21, 345);
+            //this.textBox38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox38.Name = "textBox38";
+            //this.textBox38.Size = new System.Drawing.Size(60, 22);
+            //this.textBox38.TabIndex = 31;
+            //// 
+            //// label23
+            //// 
+            //this.label23.AutoSize = true;
+            //this.label23.Location = new System.Drawing.Point(820, 311);
+            //this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label23.Name = "label23";
+            //this.label23.Size = new System.Drawing.Size(43, 17);
+            //this.label23.TabIndex = 30;
+            //this.label23.Text = "Time:";
+            //// 
+            //// label24
+            //// 
+            //this.label24.AutoSize = true;
+            //this.label24.Location = new System.Drawing.Point(756, 311);
+            //this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label24.Name = "label24";
+            //this.label24.Size = new System.Drawing.Size(42, 17);
+            //this.label24.TabIndex = 29;
+            //this.label24.Text = "Date:";
+            //// 
+            //// label25
+            //// 
+            //this.label25.AutoSize = true;
+            //this.label25.Location = new System.Drawing.Point(684, 311);
+            //this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label25.Name = "label25";
+            //this.label25.Size = new System.Drawing.Size(50, 17);
+            //this.label25.TabIndex = 28;
+            //this.label25.Text = "Hours:";
+            //// 
+            //// label26
+            //// 
+            //this.label26.AutoSize = true;
+            //this.label26.Location = new System.Drawing.Point(608, 311);
+            //this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label26.Name = "label26";
+            //this.label26.Size = new System.Drawing.Size(66, 17);
+            //this.label26.TabIndex = 27;
+            //this.label26.Text = "Capacity:";
+            //// 
+            //// label27
+            //// 
+            //this.label27.AutoSize = true;
+            //this.label27.Location = new System.Drawing.Point(511, 311);
+            //this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label27.Name = "label27";
+            //this.label27.Size = new System.Drawing.Size(90, 17);
+            //this.label27.TabIndex = 26;
+            //this.label27.Text = "Consumable:";
+            //// 
+            //// label28
+            //// 
+            //this.label28.AutoSize = true;
+            //this.label28.Location = new System.Drawing.Point(373, 279);
+            //this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label28.Name = "label28";
+            //this.label28.Size = new System.Drawing.Size(100, 17);
+            //this.label28.TabIndex = 25;
+            //this.label28.Text = "Pre-requisites:";
+            //// 
+            //// label29
+            //// 
+            //this.label29.AutoSize = true;
+            //this.label29.Location = new System.Drawing.Point(233, 279);
+            //this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label29.Name = "label29";
+            //this.label29.Size = new System.Drawing.Size(83, 17);
+            //this.label29.TabIndex = 24;
+            //this.label29.Text = "Description:";
+            //// 
+            //// label30
+            //// 
+            //this.label30.AutoSize = true;
+            //this.label30.Location = new System.Drawing.Point(104, 311);
+            //this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label30.Name = "label30";
+            //this.label30.Size = new System.Drawing.Size(87, 17);
+            //this.label30.TabIndex = 23;
+            //this.label30.Text = "Class Name:";
+            //// 
+            //// label31
+            //// 
+            //this.label31.AutoSize = true;
+            //this.label31.Location = new System.Drawing.Point(17, 311);
+            //this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label31.Name = "label31";
+            //this.label31.Size = new System.Drawing.Size(63, 17);
+            //this.label31.TabIndex = 22;
+            //this.label31.Text = "Class ID:";
+            //// 
+            //// textBox31
+            //// 
+            //this.textBox31.Location = new System.Drawing.Point(511, 249);
+            //this.textBox31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox31.Name = "textBox31";
+            //this.textBox31.Size = new System.Drawing.Size(88, 22);
+            //this.textBox31.TabIndex = 21;
+            //// 
+            //// textBox30
+            //// 
+            //this.textBox30.Location = new System.Drawing.Point(820, 249);
+            //this.textBox30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox30.Name = "textBox30";
+            //this.textBox30.Size = new System.Drawing.Size(60, 22);
+            //this.textBox30.TabIndex = 20;
+            //// 
+            //// textBox29
+            //// 
+            //this.textBox29.Location = new System.Drawing.Point(751, 249);
+            //this.textBox29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox29.Name = "textBox29";
+            //this.textBox29.Size = new System.Drawing.Size(60, 22);
+            //this.textBox29.TabIndex = 19;
+            //// 
+            //// textBox28
+            //// 
+            //this.textBox28.Location = new System.Drawing.Point(681, 249);
+            //this.textBox28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox28.Name = "textBox28";
+            //this.textBox28.Size = new System.Drawing.Size(60, 22);
+            //this.textBox28.TabIndex = 18;
+            //// 
+            //// textBox27
+            //// 
+            //this.textBox27.Location = new System.Drawing.Point(612, 249);
+            //this.textBox27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox27.Name = "textBox27";
+            //this.textBox27.Size = new System.Drawing.Size(60, 22);
+            //this.textBox27.TabIndex = 17;
+            //// 
+            //// richTextBox11
+            //// 
+            //this.richTextBox11.Location = new System.Drawing.Point(361, 202);
+            //this.richTextBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.richTextBox11.Name = "richTextBox11";
+            //this.richTextBox11.Size = new System.Drawing.Size(140, 69);
+            //this.richTextBox11.TabIndex = 16;
+            //this.richTextBox11.Text = "";
+            //// 
+            //// richTextBox10
+            //// 
+            //this.richTextBox10.Location = new System.Drawing.Point(207, 203);
+            //this.richTextBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.richTextBox10.Name = "richTextBox10";
+            //this.richTextBox10.Size = new System.Drawing.Size(140, 69);
+            //this.richTextBox10.TabIndex = 15;
+            //this.richTextBox10.Text = "";
+            //// 
+            //// textBox26
+            //// 
+            //this.textBox26.Location = new System.Drawing.Point(97, 247);
+            //this.textBox26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox26.Name = "textBox26";
+            //this.textBox26.Size = new System.Drawing.Size(93, 22);
+            //this.textBox26.TabIndex = 14;
+            //// 
+            //// textBox25
+            //// 
+            //this.textBox25.Location = new System.Drawing.Point(21, 247);
+            //this.textBox25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox25.Name = "textBox25";
+            //this.textBox25.Size = new System.Drawing.Size(60, 22);
+            //this.textBox25.TabIndex = 13;
+            //// 
+            //// label22
+            //// 
+            //this.label22.AutoSize = true;
+            //this.label22.Location = new System.Drawing.Point(820, 214);
+            //this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label22.Name = "label22";
+            //this.label22.Size = new System.Drawing.Size(43, 17);
+            //this.label22.TabIndex = 12;
+            //this.label22.Text = "Time:";
+            //// 
+            //// label21
+            //// 
+            //this.label21.AutoSize = true;
+            //this.label21.Location = new System.Drawing.Point(756, 214);
+            //this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label21.Name = "label21";
+            //this.label21.Size = new System.Drawing.Size(42, 17);
+            //this.label21.TabIndex = 11;
+            //this.label21.Text = "Date:";
+            //// 
+            //// label20
+            //// 
+            //this.label20.AutoSize = true;
+            //this.label20.Location = new System.Drawing.Point(684, 214);
+            //this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label20.Name = "label20";
+            //this.label20.Size = new System.Drawing.Size(50, 17);
+            //this.label20.TabIndex = 10;
+            //this.label20.Text = "Hours:";
+            //// 
+            //// label19
+            //// 
+            //this.label19.AutoSize = true;
+            //this.label19.Location = new System.Drawing.Point(608, 214);
+            //this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label19.Name = "label19";
+            //this.label19.Size = new System.Drawing.Size(66, 17);
+            //this.label19.TabIndex = 9;
+            //this.label19.Text = "Capacity:";
+            //// 
+            //// label18
+            //// 
+            //this.label18.AutoSize = true;
+            //this.label18.Location = new System.Drawing.Point(511, 214);
+            //this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label18.Name = "label18";
+            //this.label18.Size = new System.Drawing.Size(90, 17);
+            //this.label18.TabIndex = 8;
+            //this.label18.Text = "Consumable:";
+            //// 
+            //// label17
+            //// 
+            //this.label17.AutoSize = true;
+            //this.label17.Location = new System.Drawing.Point(373, 182);
+            //this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label17.Name = "label17";
+            //this.label17.Size = new System.Drawing.Size(100, 17);
+            //this.label17.TabIndex = 7;
+            //this.label17.Text = "Pre-requisites:";
+            //// 
+            //// label16
+            //// 
+            //this.label16.AutoSize = true;
+            //this.label16.Location = new System.Drawing.Point(233, 182);
+            //this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label16.Name = "label16";
+            //this.label16.Size = new System.Drawing.Size(83, 17);
+            //this.label16.TabIndex = 6;
+            //this.label16.Text = "Description:";
+            //// 
+            //// label15
+            //// 
+            //this.label15.AutoSize = true;
+            //this.label15.Location = new System.Drawing.Point(104, 214);
+            //this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label15.Name = "label15";
+            //this.label15.Size = new System.Drawing.Size(87, 17);
+            //this.label15.TabIndex = 5;
+            //this.label15.Text = "Class Name:";
+            //// 
+            //// label14
+            //// 
+            //this.label14.AutoSize = true;
+            //this.label14.Location = new System.Drawing.Point(17, 214);
+            //this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label14.Name = "label14";
+            //this.label14.Size = new System.Drawing.Size(63, 17);
+            //this.label14.TabIndex = 4;
+            //this.label14.Text = "Class ID:";
+//>>>>>>> refs/remotes/origin/master
             // 
             // pictureBox3
             // 
@@ -1107,27 +1107,27 @@
             this.dataGrid_digsReport.Location = new System.Drawing.Point(17, 123);
             this.dataGrid_digsReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGrid_digsReport.Name = "dataGrid_digsReport";
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.dataGrid_digsReport.RowHeadersVisible = false;
             this.dataGrid_digsReport.Size = new System.Drawing.Size(460, 230);
             this.dataGrid_digsReport.TabIndex = 6;
             // 
-=======
+//=======
             this.dataGrid_digsReport.Size = new System.Drawing.Size(613, 283);
             this.dataGrid_digsReport.TabIndex = 6;
             // 
             // button_generateDigsReport
             // 
-            this.button_generateDigsReport.Location = new System.Drawing.Point(216, 414);
-            this.button_generateDigsReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button_generateDigsReport.Name = "button_generateDigsReport";
-            this.button_generateDigsReport.Size = new System.Drawing.Size(212, 28);
-            this.button_generateDigsReport.TabIndex = 5;
-            this.button_generateDigsReport.Text = "Generate Report";
-            this.button_generateDigsReport.UseVisualStyleBackColor = true;
-            this.button_generateDigsReport.Click += new System.EventHandler(this.button1_Click);
+            //this.button_generateDigsReport.Location = new System.Drawing.Point(216, 414);
+            //this.button_generateDigsReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.button_generateDigsReport.Name = "button_generateDigsReport";
+            //this.button_generateDigsReport.Size = new System.Drawing.Size(212, 28);
+            //this.button_generateDigsReport.TabIndex = 5;
+            //this.button_generateDigsReport.Text = "Generate Report";
+            //this.button_generateDigsReport.UseVisualStyleBackColor = true;
+            //this.button_generateDigsReport.Click += new System.EventHandler(this.button1_Click);
             // 
->>>>>>> refs/remotes/origin/master
+//>>>>>>> refs/remotes/origin/master
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
@@ -1148,201 +1148,201 @@
             this.richTextBox4.TabIndex = 2;
             this.richTextBox4.Text = "Digs Report";
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             // instructorReportTabPage
-=======
-            // instrucrorReportTabPage
-            // 
-            this.instrucrorReportTabPage.Controls.Add(this.textBox21);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox22);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox23);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox24);
-            this.instrucrorReportTabPage.Controls.Add(this.checkBox5);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox17);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox18);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox19);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox20);
-            this.instrucrorReportTabPage.Controls.Add(this.checkBox4);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox13);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox14);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox15);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox16);
-            this.instrucrorReportTabPage.Controls.Add(this.checkBox3);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox9);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox10);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox11);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox12);
-            this.instrucrorReportTabPage.Controls.Add(this.checkBox2);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox8);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox7);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox6);
-            this.instrucrorReportTabPage.Controls.Add(this.textBox5);
-            this.instrucrorReportTabPage.Controls.Add(this.checkBox1);
-            this.instrucrorReportTabPage.Controls.Add(this.label13);
-            this.instrucrorReportTabPage.Controls.Add(this.label12);
-            this.instrucrorReportTabPage.Controls.Add(this.label11);
-            this.instrucrorReportTabPage.Controls.Add(this.label10);
-            this.instrucrorReportTabPage.Controls.Add(this.label9);
-            this.instrucrorReportTabPage.Controls.Add(this.pictureBox5);
-            this.instrucrorReportTabPage.Controls.Add(this.richTextBox5);
-            this.instrucrorReportTabPage.Location = new System.Drawing.Point(4, 25);
-            this.instrucrorReportTabPage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.instrucrorReportTabPage.Name = "instrucrorReportTabPage";
-            this.instrucrorReportTabPage.Size = new System.Drawing.Size(892, 506);
-            this.instrucrorReportTabPage.TabIndex = 5;
-            this.instrucrorReportTabPage.Text = "Instructor Report";
-            this.instrucrorReportTabPage.UseVisualStyleBackColor = true;
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(407, 281);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(105, 22);
-            this.textBox21.TabIndex = 33;
-            // 
-            // textBox22
-            // 
-            this.textBox22.Location = new System.Drawing.Point(261, 281);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(105, 22);
-            this.textBox22.TabIndex = 32;
-            // 
-            // textBox23
-            // 
-            this.textBox23.Location = new System.Drawing.Point(133, 281);
-            this.textBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(105, 22);
-            this.textBox23.TabIndex = 31;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(5, 281);
-            this.textBox24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(105, 22);
-            this.textBox24.TabIndex = 30;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(548, 288);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(18, 17);
-            this.checkBox5.TabIndex = 29;
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(407, 249);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(105, 22);
-            this.textBox17.TabIndex = 28;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(261, 249);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(105, 22);
-            this.textBox18.TabIndex = 27;
-            // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(133, 249);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(105, 22);
-            this.textBox19.TabIndex = 26;
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(5, 249);
-            this.textBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(105, 22);
-            this.textBox20.TabIndex = 25;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(548, 256);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(18, 17);
-            this.checkBox4.TabIndex = 24;
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(407, 217);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(105, 22);
-            this.textBox13.TabIndex = 23;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(261, 217);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(105, 22);
-            this.textBox14.TabIndex = 22;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(133, 217);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(105, 22);
-            this.textBox15.TabIndex = 21;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(5, 217);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(105, 22);
-            this.textBox16.TabIndex = 20;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(548, 224);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(18, 17);
-            this.checkBox3.TabIndex = 19;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(407, 185);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(105, 22);
-            this.textBox9.TabIndex = 18;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(261, 185);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(105, 22);
-            this.textBox10.TabIndex = 17;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(133, 185);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(105, 22);
-            this.textBox11.TabIndex = 16;
->>>>>>> refs/remotes/origin/master
+//=======
+//            // instrucrorReportTabPage
+//            // 
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox21);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox22);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox23);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox24);
+//            this.instrucrorReportTabPage.Controls.Add(this.checkBox5);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox17);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox18);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox19);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox20);
+//            this.instrucrorReportTabPage.Controls.Add(this.checkBox4);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox13);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox14);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox15);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox16);
+//            this.instrucrorReportTabPage.Controls.Add(this.checkBox3);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox9);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox10);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox11);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox12);
+//            this.instrucrorReportTabPage.Controls.Add(this.checkBox2);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox8);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox7);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox6);
+//            this.instrucrorReportTabPage.Controls.Add(this.textBox5);
+//            this.instrucrorReportTabPage.Controls.Add(this.checkBox1);
+//            this.instrucrorReportTabPage.Controls.Add(this.label13);
+//            this.instrucrorReportTabPage.Controls.Add(this.label12);
+//            this.instrucrorReportTabPage.Controls.Add(this.label11);
+//            this.instrucrorReportTabPage.Controls.Add(this.label10);
+//            this.instrucrorReportTabPage.Controls.Add(this.label9);
+//            this.instrucrorReportTabPage.Controls.Add(this.pictureBox5);
+//            this.instrucrorReportTabPage.Controls.Add(this.richTextBox5);
+//            this.instrucrorReportTabPage.Location = new System.Drawing.Point(4, 25);
+//            this.instrucrorReportTabPage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.instrucrorReportTabPage.Name = "instrucrorReportTabPage";
+//            this.instrucrorReportTabPage.Size = new System.Drawing.Size(892, 506);
+//            this.instrucrorReportTabPage.TabIndex = 5;
+//            this.instrucrorReportTabPage.Text = "Instructor Report";
+//            this.instrucrorReportTabPage.UseVisualStyleBackColor = true;
+//            // 
+//            // textBox21
+//            // 
+//            this.textBox21.Location = new System.Drawing.Point(407, 281);
+//            this.textBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox21.Name = "textBox21";
+//            this.textBox21.Size = new System.Drawing.Size(105, 22);
+//            this.textBox21.TabIndex = 33;
+//            // 
+//            // textBox22
+//            // 
+//            this.textBox22.Location = new System.Drawing.Point(261, 281);
+//            this.textBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox22.Name = "textBox22";
+//            this.textBox22.Size = new System.Drawing.Size(105, 22);
+//            this.textBox22.TabIndex = 32;
+//            // 
+//            // textBox23
+//            // 
+//            this.textBox23.Location = new System.Drawing.Point(133, 281);
+//            this.textBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox23.Name = "textBox23";
+//            this.textBox23.Size = new System.Drawing.Size(105, 22);
+//            this.textBox23.TabIndex = 31;
+//            // 
+//            // textBox24
+//            // 
+//            this.textBox24.Location = new System.Drawing.Point(5, 281);
+//            this.textBox24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox24.Name = "textBox24";
+//            this.textBox24.Size = new System.Drawing.Size(105, 22);
+//            this.textBox24.TabIndex = 30;
+//            // 
+//            // checkBox5
+//            // 
+//            this.checkBox5.AutoSize = true;
+//            this.checkBox5.Location = new System.Drawing.Point(548, 288);
+//            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.checkBox5.Name = "checkBox5";
+//            this.checkBox5.Size = new System.Drawing.Size(18, 17);
+//            this.checkBox5.TabIndex = 29;
+//            this.checkBox5.UseVisualStyleBackColor = true;
+//            // 
+//            // textBox17
+//            // 
+//            this.textBox17.Location = new System.Drawing.Point(407, 249);
+//            this.textBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox17.Name = "textBox17";
+//            this.textBox17.Size = new System.Drawing.Size(105, 22);
+//            this.textBox17.TabIndex = 28;
+//            // 
+//            // textBox18
+//            // 
+//            this.textBox18.Location = new System.Drawing.Point(261, 249);
+//            this.textBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox18.Name = "textBox18";
+//            this.textBox18.Size = new System.Drawing.Size(105, 22);
+//            this.textBox18.TabIndex = 27;
+//            // 
+//            // textBox19
+//            // 
+//            this.textBox19.Location = new System.Drawing.Point(133, 249);
+//            this.textBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox19.Name = "textBox19";
+//            this.textBox19.Size = new System.Drawing.Size(105, 22);
+//            this.textBox19.TabIndex = 26;
+//            // 
+//            // textBox20
+//            // 
+//            this.textBox20.Location = new System.Drawing.Point(5, 249);
+//            this.textBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox20.Name = "textBox20";
+//            this.textBox20.Size = new System.Drawing.Size(105, 22);
+//            this.textBox20.TabIndex = 25;
+//            // 
+//            // checkBox4
+//            // 
+//            this.checkBox4.AutoSize = true;
+//            this.checkBox4.Location = new System.Drawing.Point(548, 256);
+//            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.checkBox4.Name = "checkBox4";
+//            this.checkBox4.Size = new System.Drawing.Size(18, 17);
+//            this.checkBox4.TabIndex = 24;
+//            this.checkBox4.UseVisualStyleBackColor = true;
+//            // 
+//            // textBox13
+//            // 
+//            this.textBox13.Location = new System.Drawing.Point(407, 217);
+//            this.textBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox13.Name = "textBox13";
+//            this.textBox13.Size = new System.Drawing.Size(105, 22);
+//            this.textBox13.TabIndex = 23;
+//            // 
+//            // textBox14
+//            // 
+//            this.textBox14.Location = new System.Drawing.Point(261, 217);
+//            this.textBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox14.Name = "textBox14";
+//            this.textBox14.Size = new System.Drawing.Size(105, 22);
+//            this.textBox14.TabIndex = 22;
+//            // 
+//            // textBox15
+//            // 
+//            this.textBox15.Location = new System.Drawing.Point(133, 217);
+//            this.textBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox15.Name = "textBox15";
+//            this.textBox15.Size = new System.Drawing.Size(105, 22);
+//            this.textBox15.TabIndex = 21;
+//            // 
+//            // textBox16
+//            // 
+//            this.textBox16.Location = new System.Drawing.Point(5, 217);
+//            this.textBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox16.Name = "textBox16";
+//            this.textBox16.Size = new System.Drawing.Size(105, 22);
+//            this.textBox16.TabIndex = 20;
+//            // 
+//            // checkBox3
+//            // 
+//            this.checkBox3.AutoSize = true;
+//            this.checkBox3.Location = new System.Drawing.Point(548, 224);
+//            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.checkBox3.Name = "checkBox3";
+//            this.checkBox3.Size = new System.Drawing.Size(18, 17);
+//            this.checkBox3.TabIndex = 19;
+//            this.checkBox3.UseVisualStyleBackColor = true;
+//            // 
+//            // textBox9
+//            // 
+//            this.textBox9.Location = new System.Drawing.Point(407, 185);
+//            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox9.Name = "textBox9";
+//            this.textBox9.Size = new System.Drawing.Size(105, 22);
+//            this.textBox9.TabIndex = 18;
+//            // 
+//            // textBox10
+//            // 
+//            this.textBox10.Location = new System.Drawing.Point(261, 185);
+//            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox10.Name = "textBox10";
+//            this.textBox10.Size = new System.Drawing.Size(105, 22);
+//            this.textBox10.TabIndex = 17;
+//            // 
+//            // textBox11
+//            // 
+//            this.textBox11.Location = new System.Drawing.Point(133, 185);
+//            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+//            this.textBox11.Name = "textBox11";
+//            this.textBox11.Size = new System.Drawing.Size(105, 22);
+//            this.textBox11.TabIndex = 16;
+////>>>>>>> refs/remotes/origin/master
             // 
             this.instructorReportTabPage.Controls.Add(this.dataGrid_instructorReport);
             this.instructorReportTabPage.Controls.Add(this.pictureBox5);
@@ -1354,7 +1354,7 @@
             this.instructorReportTabPage.Text = "Instructor Report";
             this.instructorReportTabPage.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             // dataGrid_instructorReport
             // 
             this.dataGrid_instructorReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -1363,115 +1363,115 @@
             this.dataGrid_instructorReport.RowHeadersVisible = false;
             this.dataGrid_instructorReport.Size = new System.Drawing.Size(470, 301);
             this.dataGrid_instructorReport.TabIndex = 34;
-=======
-            this.textBox12.Location = new System.Drawing.Point(5, 185);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(105, 22);
-            this.textBox12.TabIndex = 15;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(548, 192);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(18, 17);
-            this.checkBox2.TabIndex = 14;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(407, 153);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(105, 22);
-            this.textBox8.TabIndex = 13;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(261, 153);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(105, 22);
-            this.textBox7.TabIndex = 12;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(133, 153);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(105, 22);
-            this.textBox6.TabIndex = 11;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(5, 153);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(105, 22);
-            this.textBox5.TabIndex = 10;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(548, 160);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(18, 17);
-            this.checkBox1.TabIndex = 9;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(532, 124);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(54, 17);
-            this.label13.TabIndex = 8;
-            this.label13.Text = "Active?";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(405, 124);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(107, 17);
-            this.label12.TabIndex = 7;
-            this.label12.Text = "Phone Number:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(287, 124);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(46, 17);
-            this.label11.TabIndex = 6;
-            this.label11.Text = "Email:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(141, 124);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(76, 17);
-            this.label10.TabIndex = 5;
-            this.label10.Text = "First Name";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(5, 124);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(80, 17);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "Last Name:";
->>>>>>> refs/remotes/origin/master
+//=======
+            //this.textBox12.Location = new System.Drawing.Point(5, 185);
+            //this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox12.Name = "textBox12";
+            //this.textBox12.Size = new System.Drawing.Size(105, 22);
+            //this.textBox12.TabIndex = 15;
+            //// 
+            //// checkBox2
+            //// 
+            //this.checkBox2.AutoSize = true;
+            //this.checkBox2.Location = new System.Drawing.Point(548, 192);
+            //this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.checkBox2.Name = "checkBox2";
+            //this.checkBox2.Size = new System.Drawing.Size(18, 17);
+            //this.checkBox2.TabIndex = 14;
+            //this.checkBox2.UseVisualStyleBackColor = true;
+            //// 
+            //// textBox8
+            //// 
+            //this.textBox8.Location = new System.Drawing.Point(407, 153);
+            //this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox8.Name = "textBox8";
+            //this.textBox8.Size = new System.Drawing.Size(105, 22);
+            //this.textBox8.TabIndex = 13;
+            //// 
+            //// textBox7
+            //// 
+            //this.textBox7.Location = new System.Drawing.Point(261, 153);
+            //this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox7.Name = "textBox7";
+            //this.textBox7.Size = new System.Drawing.Size(105, 22);
+            //this.textBox7.TabIndex = 12;
+            //// 
+            //// textBox6
+            //// 
+            //this.textBox6.Location = new System.Drawing.Point(133, 153);
+            //this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox6.Name = "textBox6";
+            //this.textBox6.Size = new System.Drawing.Size(105, 22);
+            //this.textBox6.TabIndex = 11;
+            //// 
+            //// textBox5
+            //// 
+            //this.textBox5.Location = new System.Drawing.Point(5, 153);
+            //this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.textBox5.Name = "textBox5";
+            //this.textBox5.Size = new System.Drawing.Size(105, 22);
+            //this.textBox5.TabIndex = 10;
+            //// 
+            //// checkBox1
+            //// 
+            //this.checkBox1.AutoSize = true;
+            //this.checkBox1.Location = new System.Drawing.Point(548, 160);
+            //this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.checkBox1.Name = "checkBox1";
+            //this.checkBox1.Size = new System.Drawing.Size(18, 17);
+            //this.checkBox1.TabIndex = 9;
+            //this.checkBox1.UseVisualStyleBackColor = true;
+            //// 
+            //// label13
+            //// 
+            //this.label13.AutoSize = true;
+            //this.label13.Location = new System.Drawing.Point(532, 124);
+            //this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label13.Name = "label13";
+            //this.label13.Size = new System.Drawing.Size(54, 17);
+            //this.label13.TabIndex = 8;
+            //this.label13.Text = "Active?";
+            //// 
+            //// label12
+            //// 
+            //this.label12.AutoSize = true;
+            //this.label12.Location = new System.Drawing.Point(405, 124);
+            //this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label12.Name = "label12";
+            //this.label12.Size = new System.Drawing.Size(107, 17);
+            //this.label12.TabIndex = 7;
+            //this.label12.Text = "Phone Number:";
+            //// 
+            //// label11
+            //// 
+            //this.label11.AutoSize = true;
+            //this.label11.Location = new System.Drawing.Point(287, 124);
+            //this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label11.Name = "label11";
+            //this.label11.Size = new System.Drawing.Size(46, 17);
+            //this.label11.TabIndex = 6;
+            //this.label11.Text = "Email:";
+            //// 
+            //// label10
+            //// 
+            //this.label10.AutoSize = true;
+            //this.label10.Location = new System.Drawing.Point(141, 124);
+            //this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label10.Name = "label10";
+            //this.label10.Size = new System.Drawing.Size(76, 17);
+            //this.label10.TabIndex = 5;
+            //this.label10.Text = "First Name";
+            //// 
+            //// label9
+            //// 
+            //this.label9.AutoSize = true;
+            //this.label9.Location = new System.Drawing.Point(5, 124);
+            //this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label9.Name = "label9";
+            //this.label9.Size = new System.Drawing.Size(80, 17);
+            //this.label9.TabIndex = 4;
+            //this.label9.Text = "Last Name:";
+//>>>>>>> refs/remotes/origin/master
             // 
             // pictureBox5
             // 
@@ -2160,7 +2160,7 @@
             this.tabPage4.Text = "Membership Transaction Report";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             // dataGrid_scheduleReport
             // 
             this.dataGrid_scheduleReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -2168,7 +2168,7 @@
             this.dataGrid_scheduleReport.Name = "dataGrid_scheduleReport";
             this.dataGrid_scheduleReport.Size = new System.Drawing.Size(240, 150);
             this.dataGrid_scheduleReport.TabIndex = 4;
-=======
+//=======
             // tabPage5
             // 
             this.tabPage5.Location = new System.Drawing.Point(4, 25);
@@ -2178,7 +2178,7 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Payment History";
             this.tabPage5.UseVisualStyleBackColor = true;
->>>>>>> refs/remotes/origin/master
+//>>>>>>> refs/remotes/origin/master
             // 
             // Form1
             // 
@@ -2214,10 +2214,10 @@
             this.scheduleReportTabPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.transactionsTabPage.ResumeLayout(false);
-<<<<<<< HEAD
-            this.tabControl4.ResumeLayout(false);
+//<<<<<<< HEAD
+         //   this.tabControl4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid_scheduleReport)).EndInit();
-=======
+//=======
             this.tabTransactions.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -2225,7 +2225,7 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMembership)).EndInit();
->>>>>>> refs/remotes/origin/master
+//>>>>>>> refs/remotes/origin/master
             this.ResumeLayout(false);
 
         }
@@ -2278,12 +2278,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dataGrid_digsReport;
-<<<<<<< HEAD
+//<<<<<<< HEAD
         private System.Windows.Forms.DataGridView dataGrid_classReport;
         private System.Windows.Forms.DataGridView dataGrid_instructor;
         private System.Windows.Forms.DataGridView dataGrid_instructorReport;
         private System.Windows.Forms.DataGridView dataGrid_scheduleReport;
-=======
+//=======
         private System.Windows.Forms.TabControl tabTransactions;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.DataGridView dataGridViewClassTransaction;
@@ -2343,7 +2343,7 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
->>>>>>> refs/remotes/origin/master
+//>>>>>>> refs/remotes/origin/master
     }
 }
 
