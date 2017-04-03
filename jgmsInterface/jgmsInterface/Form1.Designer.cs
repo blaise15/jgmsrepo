@@ -1222,7 +1222,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(770, 475);
+            this.tabPage2.Size = new System.Drawing.Size(770, 443);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Membership Transaction";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1707,7 +1707,7 @@
             this.lblClassAttending.AutoSize = true;
             this.lblClassAttending.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lblClassAttending.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClassAttending.Location = new System.Drawing.Point(15, 251);
+            this.lblClassAttending.Location = new System.Drawing.Point(15, 231);
             this.lblClassAttending.Name = "lblClassAttending";
             this.lblClassAttending.Size = new System.Drawing.Size(135, 15);
             this.lblClassAttending.TabIndex = 118;
@@ -1833,7 +1833,7 @@
             // picBoxClassAttendClassTrans
             // 
             this.picBoxClassAttendClassTrans.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picBoxClassAttendClassTrans.Location = new System.Drawing.Point(5, 245);
+            this.picBoxClassAttendClassTrans.Location = new System.Drawing.Point(5, 225);
             this.picBoxClassAttendClassTrans.Margin = new System.Windows.Forms.Padding(0);
             this.picBoxClassAttendClassTrans.Name = "picBoxClassAttendClassTrans";
             this.picBoxClassAttendClassTrans.Size = new System.Drawing.Size(727, 29);
@@ -1854,10 +1854,10 @@
             this.Column19,
             this.Column20,
             this.Column22});
-            this.dataGridClassAttendStudRecpt.Location = new System.Drawing.Point(4, 280);
+            this.dataGridClassAttendStudRecpt.Location = new System.Drawing.Point(4, 260);
             this.dataGridClassAttendStudRecpt.Name = "dataGridClassAttendStudRecpt";
             this.dataGridClassAttendStudRecpt.RowHeadersVisible = false;
-            this.dataGridClassAttendStudRecpt.Size = new System.Drawing.Size(728, 210);
+            this.dataGridClassAttendStudRecpt.Size = new System.Drawing.Size(728, 173);
             this.dataGridClassAttendStudRecpt.TabIndex = 122;
             // 
             // Column14
@@ -2008,7 +2008,7 @@
             this.tabPage4.Controls.Add(this.picBoxPayTypeTotalMemPay);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(770, 475);
+            this.tabPage4.Size = new System.Drawing.Size(770, 443);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Membership Payments";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -3259,7 +3259,7 @@
             this.tabPage6.Controls.Add(this.picBoxClassRosters);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(770, 475);
+            this.tabPage6.Size = new System.Drawing.Size(770, 443);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Class Rosters Report";
             this.tabPage6.UseVisualStyleBackColor = true;
